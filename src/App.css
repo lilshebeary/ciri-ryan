@@ -1,25 +1,19 @@
 body {
   margin: 1em;
   display: flex;
-  background: url('./background.svg') no-repeat center center fixed ;
+  /* background: url('./ciri-logo.svg') no-repeat center center fixed ;
   background-size: 90rem;
   background-position-x: -1em; 
-  background-position-y: -8em; 
+  background-position-y: -8em;  */
   justify-content: center;
   align-items: center;
-  background-color: #540808;
+  background-color: #17509B;
   font-family: 'Quicksand', sans-serif;
 }
 
-.hr {
+.hr-top {
   color: black;
   margin-top: 1em;
-}
-.name-title {
-  display: flex;
-  flex-direction: column;
-  justify-items:  center;
-  align-items: center;
 }
 
 
@@ -27,24 +21,23 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.4rem;
   color: #00000C;
-  margin-top: 12em;
+  margin-right: 3em;
   padding-bottom: .3em;
-  justify-self: center;
+}
+h1:hover {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.4rem;
+  color: white;
+  margin-right: 3em;
+  padding-bottom: .3em;
 }
 
-h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.5rem;
-  color: #00000C;
-  margin-bottom: 0;
-  justify-self: center;
-  align-self: center;
-}
+
 div .nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 7em;
+  margin-top: 6em;
 }
 
 .btn {
@@ -57,16 +50,20 @@ div .nav {
  
 }
 
-.short {
-  width: 8em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
+
 section {
   display: flex;
+  height: 30em;
   justify-content: center;
   align-items: center;
 }
+img {
+  display: flex;
+  height: 75em;
+  width:auto;
+  justify-self: center;
+}
+
 .social {
   display: flex;
   justify-content: space-around;
@@ -78,29 +75,9 @@ section {
 i:hover {
   color: white;
 }
+a {
+  color: #00000C;
+}
 .btm-hr {
   color: #00000C;
 }
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: ;
-  }
-} */
-
-/* .App-header {
-  background-color: pink;
-  min-height: 100vh;
-  
-
-} */
-
-
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: ;
-  }
-  to {
-    transform:;
-  }
-} */

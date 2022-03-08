@@ -1,12 +1,19 @@
 import "./App.css";
-import bg from './background.svg'
+import bg from './ciri-logo.svg'
+import stars from './stars.mp4'
 
 function App() {
+ 
+
   return (
     <div className="App">
       
       <div className="nav">
         <nav className="navbar">
+        <div className="name-title">
+        <h1>Ciri Ryan</h1>
+        {/* <h2>Software Developer</h2> */}
+      </div>
           <li class="nav-item">
             <a class="nav-link" href="./About.js">
             <button type="button" class="btn btn-outline-dark rounded-pill lg">About </button>
@@ -24,18 +31,21 @@ function App() {
           </li>
         </nav>
       </div>
-      <hr className="hr" />
-<section>
-      <div className="name-title">
-        <h1>Ciri Ryan</h1>
-        <h2>Software Developer</h2>
+      <hr className="hr-top" />
+      <section>
+
+      <img src={bg}></img>
+    <div className="night">
+      <div className="shooting_star">
+        </div>
       </div>
- </section>
+
+     </section>
  <hr className="btm-hr"/>
     <div className="social">
-    <i class="fa-brands fa-linkedin-in"></i>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-brands fa-codepen"></i>
+    <a href="https://www.linkedin.com/in/ciri-ryan-150a571a0/" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://github.com/lilshebeary" title="github"><i class="fa-brands fa-github"></i></a>
+    <a href="https://codepen.io/lilshebeary" title="codepen"><i class="fa-brands fa-codepen"></i></a>
     </div>
 
     </div>
