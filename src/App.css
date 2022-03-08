@@ -4,20 +4,13 @@ body {
   background: url('./background.svg') no-repeat center center fixed ;
   background-size: 90rem;
   background-position-x: -1em; 
-  background-position-y: -5em; 
+  background-position-y: -8em; 
   justify-content: center;
   align-items: center;
   background-color: #540808;
   font-family: 'Quicksand', sans-serif;
 }
-html {
-  
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-  z-index: 5;
-}
+
 .hr {
   color: black;
   margin-top: 1em;
@@ -51,18 +44,19 @@ div .nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 10em;
+  margin-top: 7em;
 }
 
 .btn {
   display: flex;
   flex-direction: row;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: .7em;
   padding-right: .7em;
   color: #00000C;
  
 }
+
 .short {
   width: 8em;
   margin-top: 2em;
@@ -73,7 +67,20 @@ section {
   justify-content: center;
   align-items: center;
 }
+.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  color: #00000C;
+  margin-top: 1em;
 
+}
+i:hover {
+  color: white;
+}
+.btm-hr {
+  color: #00000C;
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: ;

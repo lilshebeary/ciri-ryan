@@ -31,6 +31,13 @@ function App() {
         <h2>Software Developer</h2>
       </div>
  </section>
+ <hr className="btm-hr"/>
+    <div className="social">
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-codepen"></i>
+    </div>
+
     </div>
   );
 }
