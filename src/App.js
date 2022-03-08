@@ -1,6 +1,6 @@
 import "./App.css";
 import bg from './ciri-logo.svg'
-import stars from './stars.mp4'
+
 
 function App() {
  
