@@ -1,66 +1,78 @@
 body {
   margin: 1em;
-  background-color: #0f3a57 ;
+  display: flex;
+  background: url('./background.svg') no-repeat center center fixed ;
+  background-size: 90rem;
+  background-position-x: -1em; 
+  background-position-y: -5em; 
+  justify-content: center;
+  align-items: center;
+  background-color: #540808;
   font-family: 'Quicksand', sans-serif;
 }
+html {
+  
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  z-index: 5;
+}
 .hr {
-  color: white;
-  margin-top: 0;
+  color: black;
+  margin-top: 1em;
 }
 .name-title {
   display: flex;
   flex-direction: column;
-  justify-content:  flex-end;
-  margin-top: 3em;
+  justify-items:  center;
+  align-items: center;
 }
+
+
 h1 {
   font-family: 'Quicksand', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
-  font-size: 2.5rem;
-  color: white;
-  margin-left: 3em;
-  margin-bottom: 0;
-  justify-self: flex-end;
+  font-size: 2.4rem;
+  color: #00000C;
+  margin-top: 12em;
+  padding-bottom: .3em;
+  justify-self: center;
 }
 
 h2 {
   font-family: 'Quicksand', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
-  font-size: 2rem;
-  color: white;
-  margin-left: 2em;
+  font-size: 1.5rem;
+  color: #00000C;
   margin-bottom: 0;
-  justify-self: flex-end;
+  justify-self: center;
+  align-self: center;
 }
 div .nav {
   display: flex;
   flex-direction: row;
-  justify-content: end;
-  margin-right: 8em;
+  justify-content: center;
+  margin-top: 10em;
 }
-.nav-item {
+
+.btn {
   display: flex;
   flex-direction: row;
-  color: white
-}
-.nav-link {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  font-size: 1.5em;
+  font-size: 1.3rem;
+  padding-left: .7em;
+  padding-right: .7em;
+  color: #00000C;
  
 }
-.nav-link:hover {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  font-size: 1.8em;
-  transition: all .5s ease-in-out;
- 
+.short {
+  width: 8em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-
-
-
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
