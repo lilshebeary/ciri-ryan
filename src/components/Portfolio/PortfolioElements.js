@@ -12,12 +12,17 @@ export const PortfolioContainer = styled.div`
     padding:0;
   
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 968px) {
         margin-top: 180px;
-        height: 2000px;
+        height: 1200px;
     }
-    @media screen and (max-width: 480px) {
-        height: 2000px;
+    @media screen and (max-width: 768px) {
+        margin-top: 500px;
+        height: 1400px;
+    }
+    @media screen and (max-width: 580px) {
+        margin-top: 500px;
+        height: 1400px;
     }
 `
 
@@ -75,15 +80,15 @@ export const PortfolioH1 = styled.h1`
     
     @media screen and (max-width: 1000px) {
         font-size: 2rem;
-        margin-top: 510px;
+        margin-top: 40px;
     } 
     @media screen and (max-width: 900px) {
         font-size: 2rem;
-        margin-top: 520px;
+        margin-top: 0px;
     } 
     @media screen and (max-width: 800px) {
         font-size: 2rem;
-        margin-top: 490px;
+        margin-top: 90px;
     } 
     @media screen and (max-width: 770px) {
         font-size: 2rem;
@@ -91,7 +96,7 @@ export const PortfolioH1 = styled.h1`
     } 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
-        margin-top: 480px;
+        margin-top: 80px;
     } 
 `
 export const PortfolioH2 = styled.h2`
