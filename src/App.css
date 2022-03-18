@@ -1,23 +1,17 @@
 body {
-  margin: 1em;
   display: flex;
-  /* background: url('./ciri-logo.svg') no-repeat center center fixed ;
-  background-size: 90rem;
-  background-position-x: -1em; 
-  background-position-y: -8em;  */
   justify-content: center;
   align-items: center;
-  background-color: #17509B;
   font-family: 'Quicksand', sans-serif;
 }
 
-.hr-top {
+/* .hr-top {
   color: black;
   margin-top: 1em;
-}
+} */
 
 
-h1 {
+/* h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.4rem;
   color: #00000C;
@@ -48,7 +42,7 @@ div .nav {
   padding-right: .7em;
   color: #00000C;
  
-}
+} */
 
 
 section {
@@ -59,7 +53,7 @@ section {
 }
 img {
   display: flex;
-  height: 75em;
+  height: 30em;
   width:auto;
   justify-self: center;
 }
