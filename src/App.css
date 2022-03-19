@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Quicksand', sans-serif;
+  width: 100%;
 }
 
 /* .hr-top {

@@ -44,8 +44,11 @@ export const AboutContent = styled.div`
     margin-left: 7em;
     margin-right: 7em;
     height: 80vh;
-    /* justify-content: center;
-    align-items: center; */
+
+    @media screen and (max-width: 968px) {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
 
 `
 export const AboutH1 = styled.h1`
