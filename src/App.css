@@ -66,11 +66,17 @@ img {
   margin-top: 1em;
 
 }
+.social a {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 1.5em;
+}
 i:hover {
   color: white;
 }
 a {
   color: #00000C;
+ 
 }
 .btm-hr {
   color: #00000C;

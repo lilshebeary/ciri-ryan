@@ -12,12 +12,19 @@ export const AboutContainer = styled.div`
 
     @media screen and (max-width: 868px) {
         margin-top:580px;
-        height: 1000px;
+        height: 1200px;
     }
     @media screen and (max-width: 580px) {
         margin-top:580px;
         height: 1200px;
-       
+    }
+    @media screen and (max-width: 500px) {
+        margin-top:580px;
+        height: 1600px;
+    }
+    @media screen and (max-width: 431px) {
+        margin-top:580px;
+        height: 2000px;
     }
 `
 export const AboutDiv = styled.div`

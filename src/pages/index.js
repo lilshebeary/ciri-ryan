@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar'
 import Contact from '../components/Contact';
 import About from '../components/About';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const HomePage = () => {
     <Portfolio/>
     <About />
     <Contact />
+    <Footer />
     </>
   )
 }

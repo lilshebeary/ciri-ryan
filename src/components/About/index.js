@@ -15,10 +15,10 @@ const About = () => {
         <AboutWrapper>
           <AboutContent>
             <AboutH1>Junior Software Developer</AboutH1>
-            <AboutP>Currently residing in the Greater Seattle area
+            <AboutP>I am a mobile and web developer located in the Greater Seattle area
             
-              while completing my Assocites degree in Software Development.
-              <br></br>
+              and I am currently completing my Assocites degree in Software Development
+              while working part-time on a mobile-app startup.
               </AboutP>
             <AboutP>
               I have 3 years experience with Javascript, HTML, CSS, React,
@@ -28,8 +28,8 @@ const About = () => {
               and AWS coming soon.
               </AboutP>
               <AboutP>
-              I am a hard working and motivated, a big thinker, and excited to
-              continue to learn
+              I am hard working and motivated, a big thinker, and excited to
+              continue to learn and grow as a developer.
             </AboutP>
           </AboutContent>
         </AboutWrapper>

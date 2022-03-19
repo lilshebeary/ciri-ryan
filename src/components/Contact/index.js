@@ -1,14 +1,16 @@
 import React from 'react'
-import { ContactContianer, ContactWrapper } from './ContactElements'
+import { ContactContianer, ContactWrapper, ContactH1} from './ContactElements'
+
 
 const Contact = () => {
   return (
     <>
         <ContactContianer id='contact'>
             <ContactWrapper>
-
-            </ContactWrapper>
-        </ContactContianer>
+            <ContactH1>Message Me</ContactH1>
+            
+        </ContactWrapper>
+      </ContactContianer>
     </>
   )
 }

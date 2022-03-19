@@ -12,7 +12,15 @@ export const PortfolioContainer = styled.div`
     padding:0;
   
 
+    @media screen and (max-width: 1008px) {
+        margin-top: 180px;
+        height: 1200px;
+    }
     @media screen and (max-width: 968px) {
+        margin-top: 180px;
+        height: 1200px;
+    }
+    @media screen and (max-width: 868px) {
         margin-top: 180px;
         height: 1200px;
     }

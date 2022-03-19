@@ -108,7 +108,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
   font-size: 1.48rem;
   font-weight: 100;
-  border: .07rem solid #46494c;
+  border: .07rem solid #2f2f2f;
   border-radius: 50px;
 
   &.active {
