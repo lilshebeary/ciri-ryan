@@ -122,11 +122,11 @@ export const PortfolioP = styled.p`
 export const PorfolioLink = styled.button`
     font-size: 1rem;
     color: #00000c;
-    border-color: #48a9a6;
-    outline: #48a9a6;
+    border-color: #2d93ad;
+    outline: #2d93ad;
     text-decoration: none;
     &:hover {
-        background: #48a9a6;
+        background: #2d93ad;
         color: #fff;
 
     }
@@ -136,7 +136,7 @@ export const PorfolioLink = styled.button`
     }
     & a {
         text-decoration: none;
-        color: #00000c;
+       
     }
    
 
