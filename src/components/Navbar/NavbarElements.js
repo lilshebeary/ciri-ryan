@@ -6,8 +6,8 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? 'transparent' : 'transparent')};
-  height: 80px;
-  margin-top: -80px;
+  height: 110px;
+  margin-top: -110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +32,11 @@ export const NavbarContainer = styled.div`
   max-width: 800px;
   margin-top: 5em;
   position: sticky;
+
+  @media screen and (max-width: 760px) {
+    margin-left: 2em;
+    margin-rightt: 2em;
+  }
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -68,6 +73,7 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
     margin-right: 1em;
+    padding-left: 1em;
     margin-top: -.7em;
     font-size: 2.5rem;
   }

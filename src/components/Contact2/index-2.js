@@ -7,13 +7,11 @@ import {
   ContactForm,
   ContactInput,
   ContactTextArea,
-  // ContactFieldset,
+  //   ContactFieldset,
   ContactButton,
-  ContactError
-  
- } 
-from './ContactElements';
-// from "./ContactTest";
+  ContactError,
+  // from './ContactElements';
+} from "./ContactTest";
 
 const initialState = {
   name: "",
@@ -38,12 +36,12 @@ const Contact = () => {
   return (
     <>
       <GlobalStyle />
-      <ContactContianer id='contact'>
-      <ContactWrapper>
-        <ContactForm>
-          <h2>Message Me</h2>
-          <label htmlFor="name">Name</label>
-          <ContactInput
+      <ContactContianer id="contact">
+        <ContactWrapper>
+          <ContactForm onSubmit={handleSubmit}>
+            <h2>Message Me</h2>
+            <label htmlFor="name">Name</label>
+            <ContactInput
               type="text"
               name="name"
               value={state.name}
@@ -65,15 +63,16 @@ const Contact = () => {
               onChange={handleInput}
             />
 
-           {error && (
+            {error && (
               <ContactError>
-              <p>{error}</p>
+              <p>Error message here</p>
               </ContactError>
             )}
 
-          <ContactButton type="submit">Send</ContactButton>
-        </ContactForm>
-      </ContactWrapper>
+            
+            <ContactButton type="submit">Send</ContactButton>
+          </ContactForm>
+        </ContactWrapper>
       </ContactContianer>
     </>
   );

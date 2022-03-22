@@ -1,7 +1,7 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   font-family: 'Quicksand', sans-serif;
   width: 100%;
 }
@@ -53,10 +53,12 @@ section {
   align-items: center;
 }
 img {
+  margin-top: 2em;
   display: flex;
   height: 30em;
   width:auto;
   justify-self: center;
+
 }
 
 .social {
@@ -80,5 +82,8 @@ a {
  
 }
 .btm-hr {
+  display: flex;
+ 
   color: #00000C;
+ 
 }

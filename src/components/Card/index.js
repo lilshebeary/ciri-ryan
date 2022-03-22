@@ -6,37 +6,28 @@ import Icon4 from '../../images/color-pic.svg'
 import Icon5 from '../../images/todo.svg'
 import Icon6 from '../../images/food-app.svg'
 import {
-  PortfolioContainer,
-  PortfolioH1,
-  PortfolioWrapper,
-  PortfolioCard,
-  PortfolioH2,
-  PortfolioIcon,
-  PortfolioP,
-  PorfolioLink,
+  CardContainer,
+  CardH2,
+  CardIcon,
+  CardP,
+  CardLink,
   
-} from "./PortfolioElements";
+} from "./CardElements";
 
 
 
-
-const Portfolio = () => {
+const Card = () => {
 
   return (
-  
-    <PortfolioContainer id='portfolio'>
-  
-      <PortfolioH1>Projects</PortfolioH1>
-    
-      <PortfolioWrapper>
+     <>
 
-         <PortfolioCard>
-        <PortfolioH2>Presize Camera</PortfolioH2>
-          <PortfolioIcon src={Icon1} />
-          <PortfolioP>
+        <CardContainer>
+        <CardH2>Presize Camera</CardH2>
+          <CardIcon src={Icon1} />
+          <CardP>
             React-Native Camera app with Redux
-          </PortfolioP>
-          <PorfolioLink
+          </CardP>
+          <CardLink
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -45,16 +36,16 @@ const Portfolio = () => {
                   className="btn btn-outline-success btn-sm"
                 >
                   <a href='https://github.com/lilshebeary/presize-camera/tree/dev'>code</a>
-                </PorfolioLink>
-        </PortfolioCard>
+                </CardLink>
+        </CardContainer>
 
-        <PortfolioCard>
-          <PortfolioH2>Portfolio Website</PortfolioH2>
-          <PortfolioIcon src={Icon2} />
-          <PortfolioP>
+        <CardContainer>
+          <CardH2>Portfolio Website</CardH2>
+          <CardIcon src={Icon2} />
+          <CardP>
             A website with React and styled components
-          </PortfolioP>
-          <PorfolioLink
+          </CardP>
+          <CardLink
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -63,16 +54,16 @@ const Portfolio = () => {
                   className="btn btn-outline-success btn-sm"
                 >
                   <a href='https://github.com/lilshebeary/ciri-ryan.github.io/tree/main/src'>code</a>
-                </PorfolioLink>
-        </PortfolioCard>
+                </CardLink>
+        </CardContainer>
 
-        <PortfolioCard>
-        <PortfolioH2>Maze</PortfolioH2>
-          <PortfolioIcon src={Icon3} />         
-          <PortfolioP>
+        <CardContainer>
+        <CardH2>Maze</CardH2>
+          <CardIcon src={Icon3} />         
+          <CardP>
             Javascript with PaperJS game
-          </PortfolioP>
-          <PorfolioLink
+          </CardP>
+          <CardLink
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -81,16 +72,16 @@ const Portfolio = () => {
                   className="btn btn-outline-success btn-sm"
                 >
                   <a href='https://github.com/lilshebeary/maze'>code</a>
-                </PorfolioLink>
-        </PortfolioCard>
+                </CardLink>
+        </CardContainer>
 
-        <PortfolioCard>
-        <PortfolioH2>Color Pallete Site</PortfolioH2>
-          <PortfolioIcon src={Icon4} />        
-          <PortfolioP>
+        <CardContainer>
+        <CardH2>Color Pallete Site</CardH2>
+          <CardIcon src={Icon4} />        
+          <CardP>
             React Color App
-          </PortfolioP>
-          <PorfolioLink
+          </CardP>
+          <CardLink
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -99,16 +90,16 @@ const Portfolio = () => {
                   className="btn btn-outline-success btn-sm"
                 >
                   <a href='https://github.com/lilshebeary/color-app/tree/master'>code</a>
-                </PorfolioLink>
-        </PortfolioCard>
+                </CardLink>
+        </CardContainer>
 
-        <PortfolioCard>
-          <PortfolioH2>Todos</PortfolioH2>
-          <PortfolioIcon src={Icon5} />      
-          <PortfolioP>
+        <CardContainer>
+          <CardH2>Todos</CardH2>
+          <CardIcon src={Icon5} />      
+          <CardP>
             React todo list with hooks
-          </PortfolioP>
-          <PorfolioLink
+          </CardP>
+          <CardLink
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -117,16 +108,16 @@ const Portfolio = () => {
                   className="btn btn-outline-success btn-sm"
                 >
                   <a href='https://github.com/lilshebeary/todos-hooks'>code</a>
-                </PorfolioLink>
-        </PortfolioCard>
+                </CardLink>
+        </CardContainer>
 
-        <PortfolioCard>
-          <PortfolioH2>Restaurant Search App</PortfolioH2>
-          <PortfolioIcon src={Icon6} />
-          <PortfolioP>
+        <CardContainer>
+          <CardH2>Restaurant Search App</CardH2>
+          <CardIcon src={Icon6} />
+          <CardP>
             React-native yelp api search app
-          </PortfolioP>
-          <PorfolioLink
+          </CardP>
+          <CardLink
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -135,12 +126,11 @@ const Portfolio = () => {
                   className="btn btn-outline-success btn-sm"
                 >
                   <a href='https://github.com/lilshebeary/food'>code</a>
-                </PorfolioLink>
-        </PortfolioCard> 
-    
-      </PortfolioWrapper>
-    </PortfolioContainer> 
+                </CardLink>
+        </CardContainer>
+
+        </>
   );
 };
 
-export default Portfolio;
+export default Card;

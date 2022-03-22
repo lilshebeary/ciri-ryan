@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
@@ -9,7 +10,6 @@ export const AboutContainer = styled.div`
     
     /* align-items: center; */
     
-
     @media screen and (max-width: 868px) {
         margin-top:580px;
         height: 1200px;
@@ -35,7 +35,6 @@ export const AboutDiv = styled.div`
 export const AboutWrapper = styled.div`
   margin-bottom: 80px;
     height: 80vh;
-
 `
 export const AboutContent = styled.div`
     display: flex;
@@ -44,12 +43,25 @@ export const AboutContent = styled.div`
     margin-left: 7em;
     margin-right: 7em;
     height: 80vh;
-
+    
     @media screen and (max-width: 968px) {
-        margin-left: 3em;
-        margin-right: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
+        
     }
-
+    @media screen and (max-width: 568px) {
+        margin-left: 1em;
+        margin-right: 1em;
+        
+    }
+    @media screen and (max-width: 468px) {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        
+    }
+  
 `
 export const AboutH1 = styled.h1`
     display: flex;
@@ -69,6 +81,7 @@ export const AboutP = styled.p`
     margin-bottom: .5em;
     margin-left: 7em;
     margin-right: 7em;
+    width: 80%;
    
     @media screen and (max-width: 868px) {
      margin-left: auto;
@@ -76,7 +89,8 @@ export const AboutP = styled.p`
       
     }
     @media screen and (max-width: 480px) {
-       
+       margin-left: 1em;
+       margin-right: 1em;
         margin-left: auto;
         margin-right: auto;
        

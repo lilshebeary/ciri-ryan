@@ -59,7 +59,7 @@ export const PortfolioCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    max-height: 320px;
     padding: 30px;
     margin-left: .5em;
     margin-right: .5em;
@@ -73,9 +73,10 @@ export const PortfolioCard = styled.div`
     }
 `
 export const PortfolioIcon = styled.img`
-    height: 130px;
-    width: 160px;
-    margin-bottom: 10px;
+    max-height: 110px;
+    max-width: 130px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 `
 export const PortfolioH1 = styled.h1`
     margin-top: 180px;
@@ -110,7 +111,7 @@ export const PortfolioH1 = styled.h1`
 export const PortfolioH2 = styled.h2`
     font-size: 1.2rem;
     color: #00000c;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 `
 export const PortfolioP = styled.p`
     font-size: 1rem;
@@ -121,14 +122,22 @@ export const PortfolioP = styled.p`
 export const PorfolioLink = styled.button`
     font-size: 1rem;
     color: #00000c;
-    border-color: #4DB6AC;
-    outline: #4DB6AC;
+    border-color: #48a9a6;
+    outline: #48a9a6;
     text-decoration: none;
     &:hover {
-        background: #4DB6AC;
+        background: #48a9a6;
+        color: #fff;
 
+    }
+    & a:hover {
+        text-decoration: none;
+        color: #fff;
     }
     & a {
         text-decoration: none;
+        color: #00000c;
     }
+   
+
 `

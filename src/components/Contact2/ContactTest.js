@@ -35,10 +35,10 @@ export const ContactContianer = styled.div`
     justify-content: center; 
     align-items: center; 
     background: #fff;
-    height: 850px;
+    height: 1000px;
 
     @media screen and (max-width: 800px) {
-        height: 900px;
+        height: 1000px;
     }
 
 `
@@ -53,7 +53,6 @@ export const ContactWrapper = styled.div`
 
 export const ContactForm = styled.form`
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     border: 1px solid #00000c;
     border-radius: 5px;
@@ -62,8 +61,6 @@ export const ContactForm = styled.form`
     padding: 3em;
     width: 800px;
    box-shadow: 2 0 .2 .2;
-
-
     @media screen and (max-width: 800px) {
         width: 500px;
     }
@@ -79,64 +76,67 @@ export const h2 = styled.h2`
     align-self: center;
     margin-left: 2em;
     margin-right: 2em;
-    
 `
 
 export const ContactInput = styled.input`
-    /* display: block;
+    display: block;
     width: 100%;
-    ${sharedStyles} */
-   padding: 1em;
-    width: 340px;
-    height: 40px;
-    width: 100%;
-
-    @media screen and (max-width: 550px) {
-        width: 280px;
-        
-    }
-    label {
-        display: flex;
-        align-self: start;
-    }
+    ${sharedStyles}
 
     &:focus {
     outline: 1px solid #00000c;
     }
+   
 `
 
 export const ContactTextArea = styled.textarea`
-   padding: 1em;
+   /* padding: 1em; */
+   background-color: #eee;
+   width: 100%;
    min-height: 100px;
    resize: none;
-   width: 100%;
+   ${sharedStyles}
+    
    &:focus {
     outline: 1px solid #00000c;
     }
 `
 export const ContactButton = styled.button`
+    display: block;
     width: 100px;
-    border-radius: 30px;
+    border-radius: 5px;
     border: 1px solid #00000c;
     background: #219ebc;
     font-size: 1.2rem;
-    margin-top: 2em;
-    align-self: end;
+    color: #00000c;
+    height: 40px;
+    cursor: pointer;
+    box-sizing: border-box;
 
     &:hover {
         color: #fff;
     }
 `
-export const ContactFieldset = styled.fieldset`
-       
-  
-`
-
-export const ContactError = styled.div`
-   color: red;
+/* export const ContactFieldset = styled.fieldset`
+    border: 1px solid #ddd;
    font-weight: 800;
    margin: 0 0 40px 0;
-    
+   padding: 10px;
+   margin: 20px 0;
+
+    legend {
+       padding: 0 10px;
+
+   }
+   label {
+       padding-right: 20px;
+   }
+   input {
+       margin-right: 10px;
+   }
+  
+` */
+
+export const ContactError = styled.div`
+color: red;
 `
-
-
