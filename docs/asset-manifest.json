@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ciri-ryan.github.io/static/css/main.2cb058f9.css",
-    "main.js": "/ciri-ryan.github.io/static/js/main.0ad88c08.js",
-    "static/media/food-app.svg": "/ciri-ryan.github.io/static/media/food-app.0d94fdcb42e19f0b53c8dc74b64c655c.svg",
-    "static/media/color-pic.svg": "/ciri-ryan.github.io/static/media/color-pic.20dfedf8b32bddffa92d5199346dbc76.svg",
-    "static/media/port-web.svg": "/ciri-ryan.github.io/static/media/port-web.16a58209b4e79d19404186cf7e9dc282.svg",
-    "static/media/pSCam.png": "/ciri-ryan.github.io/static/media/pSCam.7a2cbc390e3a8c931775.png",
-    "static/media/cr-logo.svg": "/ciri-ryan.github.io/static/media/cr-logo.81ea75bd8d7c6d89cb0e49d82b604836.svg",
-    "static/media/todo.svg": "/ciri-ryan.github.io/static/media/todo.03487c43dfb35dbf5cdef51115891e06.svg",
-    "static/media/maze.svg": "/ciri-ryan.github.io/static/media/maze.46ac83cccd3655d551e8bf61f424e787.svg",
-    "index.html": "/ciri-ryan.github.io/index.html",
-    "main.2cb058f9.css.map": "/ciri-ryan.github.io/static/css/main.2cb058f9.css.map",
-    "main.0ad88c08.js.map": "/ciri-ryan.github.io/static/js/main.0ad88c08.js.map"
+    "main.css": "/ciri-ryan/static/css/main.2cb058f9.css",
+    "main.js": "/ciri-ryan/static/js/main.6b6b9f89.js",
+    "static/media/food-app.svg": "/ciri-ryan/static/media/food-app.0d94fdcb42e19f0b53c8dc74b64c655c.svg",
+    "static/media/color-pic.svg": "/ciri-ryan/static/media/color-pic.20dfedf8b32bddffa92d5199346dbc76.svg",
+    "static/media/port-web.svg": "/ciri-ryan/static/media/port-web.16a58209b4e79d19404186cf7e9dc282.svg",
+    "static/media/pSCam.png": "/ciri-ryan/static/media/pSCam.7a2cbc390e3a8c931775.png",
+    "static/media/cr-logo.svg": "/ciri-ryan/static/media/cr-logo.81ea75bd8d7c6d89cb0e49d82b604836.svg",
+    "static/media/todo.svg": "/ciri-ryan/static/media/todo.03487c43dfb35dbf5cdef51115891e06.svg",
+    "static/media/maze.svg": "/ciri-ryan/static/media/maze.46ac83cccd3655d551e8bf61f424e787.svg",
+    "index.html": "/ciri-ryan/index.html",
+    "main.2cb058f9.css.map": "/ciri-ryan/static/css/main.2cb058f9.css.map",
+    "main.6b6b9f89.js.map": "/ciri-ryan/static/js/main.6b6b9f89.js.map"
   },
   "entrypoints": [
     "static/css/main.2cb058f9.css",
-    "static/js/main.0ad88c08.js"
+    "static/js/main.6b6b9f89.js"
   ]
 }
