@@ -116,10 +116,11 @@ export const ContactTextArea = styled.textarea`
 `
 export const ContactButton = styled.button`
     width: 100px;
+    height: 40px;
     border-radius: 30px;
     border: 1px solid #00000c;
     background: #219ebc;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 2em;
     align-self: end;
 

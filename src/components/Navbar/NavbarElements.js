@@ -2,7 +2,7 @@ import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
-// const whiteBg = '#fff';
+const whiteBg = '#fff';
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? 'transparent' : 'transparent')};
@@ -76,7 +76,12 @@ export const MobileIcon = styled.div`
     padding-left: 1em;
     margin-top: -.7em;
     font-size: 2.5rem;
+
+    &:hover{
+      color: #fff;
+    }
   }
+   
 
 `;
 
