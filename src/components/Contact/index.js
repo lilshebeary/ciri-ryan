@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import './contact.php'
+
 import {
   GlobalStyle,
   ContactContianer,
@@ -13,7 +13,7 @@ import {
   
  } 
 from './ContactElements';
-// from "./ContactTest";
+
 
 const initialState = {
   name: "",
@@ -63,7 +63,9 @@ const Contact = () => {
               type="text"
               value={state.message}
               onChange={handleInput}
-            />
+            >
+              
+            </ContactTextArea>
 
            {error && (
               <ContactError>
