@@ -56,7 +56,13 @@ export const NavLogo = styled(LinkR)`
     &:hover {
       font-family: 'Quicksand', sans-serif;
       font-size: 2.4rem;
-      color: ${({ whiteBg }) => (whiteBg ? '#00000c' : '#fff')};
+      color: #fff;
+      background-color: #0b3142;
+      height: 57px;
+      width: 175px;
+      border-radius: 50px;
+      padding-left: .2em;
+      padding-right: .2em;
       
     }
 `;
