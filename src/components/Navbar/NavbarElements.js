@@ -149,7 +149,10 @@ export const Hr = styled.hr`
   text-decoration: solid;
   z-index: 10;
 
-  /* @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     margin-top: 19rem;
-  } */
+  }
+  @media screen and (max-height: 680px) {
+    margin-top: 12rem;
+  }
 `;
