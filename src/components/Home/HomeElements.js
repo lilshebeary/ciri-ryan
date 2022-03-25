@@ -8,13 +8,13 @@ export const HomeContainer = styled.div`
   align-items: center;
   /* padding: 0 30px; */
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   
 
   z-index: 1;
 
   @media screen and (max-width: 800px) {
-    width: 100%;
+    width: 100vw;
   }
 `
 

@@ -1,11 +1,11 @@
-import { Link as LinkS } from 'react-scroll';
-import { Link as LinkR } from 'react-router-dom';
-import styled from 'styled-components';
+import { Link as LinkS } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
+import styled from "styled-components";
 
-const whiteBg = '#fff';
+const whiteBg = "#fff";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? 'transparent' : 'transparent')};
+  background: ${({ scrollNav }) => (scrollNav ? "transparent" : "transparent")};
   height: 110px;
   margin-top: -110px;
   display: flex;
@@ -34,37 +34,41 @@ export const NavbarContainer = styled.div`
   position: sticky;
 
   @media screen and (max-width: 760px) {
-    margin-left: 2em;
+    margin-left: 0;
     margin-rightt: 2em;
   }
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #00000C;
+  color: #00000c;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2.4rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 
-    &:hover {
-      font-family: 'Quicksand', sans-serif;
-      font-size: 2.4rem;
-      color: #fff;
-      background-color: #0b3142;
-      height: 57px;
-      width: 175px;
-      border-radius: 50px;
-      padding-left: .2em;
-      padding-right: .2em;
-      
-    }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  &:hover {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.4rem;
+    color: #fff;
+    background-color: #0b3142;
+    height: 57px;
+    width: 175px;
+    border-radius: 50px;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -72,23 +76,21 @@ export const MobileIcon = styled.div`
 
   @media screen and (max-width: 768px) {
     display: block;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    right: 0; */
+    /* transform: translate(-100%, 60%); */
     font-size: 1.8rem;
     cursor: pointer;
-    margin-right: 1em;
-    padding-left: 1em;
-    margin-top: -.7em;
+    /* margin-right: 1em; */
+    /* padding-left: 1em; */
+    /* margin-top: -0.7em; */
     font-size: 2.5rem;
 
-    &:hover{
-      color: #fff;
+    svg:active {
+      color: #fff !important;
     }
   }
-   
-
 `;
 
 export const NavMenu = styled.ul`
@@ -96,9 +98,8 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: .9em;
+  margin-right: 0.9em;
   margin-top: 1em;
- 
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -109,23 +110,22 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
-
 export const NavLinks = styled(LinkS)`
-  color: #00000C;
+  color: #00000c;
   display: flex;
   align-items: center;
   text-decoration: none;
   margin-left: 1.3em;
-  margin-right: .1em;
+  margin-right: 0.1em;
   padding-top: 0;
-  padding-left: .7em;
-  padding-right: .7em;
-  padding-top: .15em;
-  padding-bottom: .3em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.15em;
+  padding-bottom: 0.3em;
   cursor: pointer;
   font-size: 1.48rem;
   font-weight: 100;
-  border: .07rem solid #8b8c89;
+  border: 0.07rem solid #8b8c89;
   border-radius: 50px;
 
   &.active {
@@ -136,13 +136,13 @@ export const NavLinks = styled(LinkS)`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
- 
+
   white-space: nowrap;
   /* padding: 10px 22px; */
-  color: #00000C;
+  color: #00000c;
   font-size: 1.5 rem;
-  
-  border: .5 solid grey;
+
+  border: 0.5 solid grey;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -150,7 +150,7 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #00000C;
+    color: #00000c;
   }
 `;
 
@@ -159,7 +159,7 @@ export const Hr = styled.hr`
   justify-self: center;
   align-self: center;
   margin-top: 325px;
-  color: #00000C;
+  color: #00000c;
   width: 12em;
   text-decoration: solid;
   z-index: 10;
