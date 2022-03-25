@@ -48,7 +48,6 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 24px;
-  margin-bottom: 0.5em;
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
@@ -144,9 +143,13 @@ export const Hr = styled.hr`
   position: absolute;
   justify-self: center;
   align-self: center;
-  margin-top: 325px;
+  margin-top: 19rem;
   color: #00000c;
   width: 12em;
   text-decoration: solid;
   z-index: 10;
+
+  /* @media screen and (max-width: 480px) {
+    margin-top: 19rem;
+  } */
 `;
