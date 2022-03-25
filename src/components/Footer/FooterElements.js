@@ -18,5 +18,5 @@ export const FooterWrapper = styled.div`
 `;
 export const a = styled.a`
   display: flex;
-  margin: 3em;
+  margin: 3rem;
 `;
