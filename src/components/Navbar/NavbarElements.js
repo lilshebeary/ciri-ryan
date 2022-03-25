@@ -17,7 +17,6 @@ export const Nav = styled.nav`
   z-index: 10;
   width: 100%;
 
-
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
@@ -26,6 +25,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 180px;
   z-index: 1;
   width: 100%;
@@ -36,12 +36,12 @@ export const NavbarContainer = styled.div`
 
   @media screen and (max-width: 760px) {
     margin-left: 0;
-    margin-rightt: 2em;
+    margin-right: 2em;
   }
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #00000c;
+  color: black;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2.4rem;
@@ -52,18 +52,16 @@ export const NavLogo = styled(LinkR)`
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
+  height: 57px;
   font-family: "Quicksand", sans-serif;
-  
-  @media screen and (max-width: 768px) {
-    margin-bottom: 0;
-    margin-left: 0;
-  }
 
   &:hover {
     font-family: "Quicksand", sans-serif;
     font-size: 2.4rem;
     color: #fff;
     background-color: #0b3142;
+    width: 175px;
+    border-radius: 50px;
   }
 `;
 
