@@ -8,13 +8,15 @@ export const FooterWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
 
-  /* 
-   @media screen and (max-width: 480px) {
-       max-width: 300px;
-       margin-left: 1em;
-       margin-right: 1em;
-   } */
+  
+   @media screen and (max-width: 580px) {
+       
+       margin-left: 3rem;
+       margin-right: 3rem;
+   }
 `;
 export const a = styled.a`
   display: flex;
