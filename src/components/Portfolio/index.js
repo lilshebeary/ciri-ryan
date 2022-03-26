@@ -44,7 +44,7 @@ const Portfolio = () => {
                   offset={-80}
                   className="btn btn-outline-success btn-sm"
                 >
-                  <a href='https://github.com/lilshebeary/presize-camera/tree/dev'>code</a>
+                  <a href=''>private, ask for tour</a>
                 </PorfolioLink>
         </PortfolioCard>
 
@@ -62,7 +62,7 @@ const Portfolio = () => {
                   offset={-80}
                   className="btn btn-outline-success btn-sm"
                 >
-                  <a href='https://github.com/lilshebeary/ciri-ryan.github.io/tree/main/src'>code</a>
+                  <a href='https://github.com/lilshebeary/ciri-ryan'>code</a>
                 </PorfolioLink>
         </PortfolioCard>
 
@@ -98,7 +98,7 @@ const Portfolio = () => {
                   offset={-80}
                   className="btn btn-outline-success btn-sm"
                 >
-                  <a href='https://github.com/lilshebeary/color-app/tree/master'>code</a>
+                  <a href='https://github.com/lilshebeary/color-app'>code</a>
                 </PorfolioLink>
         </PortfolioCard>
 

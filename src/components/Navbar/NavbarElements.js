@@ -41,7 +41,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: black;
+  color: #00000c;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2.4rem;
@@ -58,6 +58,7 @@ export const NavLogo = styled(LinkR)`
     font-family: "Quicksand", sans-serif;
     font-size: 2.4rem;
     color: #fff;
+    /* text-shadow: #FC0 1px 0 10px; */
     background-color: #0b3142;
     width: 175px;
     border-radius: 50px;
@@ -109,7 +110,7 @@ export const NavLinks = styled(LinkS)`
   padding-bottom: 0.3em;
   cursor: pointer;
   font-size: 1.48rem;
-  font-weight: 100;
+  font-weight: 200;
   border: 0.07rem solid #8b8c89;
   border-radius: 50px;
 
@@ -150,7 +151,7 @@ export const Hr = styled.hr`
   z-index: 10;
 
   @media screen and (max-width: 480px) {
-    margin-top: 19rem;
+    margin-top: 12rem;
   }
   @media screen and (max-height: 680px) {
     margin-top: 12rem;
