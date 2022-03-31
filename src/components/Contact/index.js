@@ -76,7 +76,7 @@ const Contact = () => {
               value={state.message}
               onChange={typeWriter}
             >
-              {/* <h1 id='demo' className="typewriter">This is a static website, please contact me on LinkedIn</h1> */}
+              
             </ContactTextArea>
 
            {error && (
