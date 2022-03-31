@@ -6,6 +6,7 @@ import Sidebar from '../components/Sidebar'
 import Contact from '../components/Contact';
 import About from '../components/About';
 import Footer from '../components/Footer';
+// import Modal from '../components/Modal';
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ const HomePage = () => {
     <Navbar toggle={toggle} />
     <Home />
     <Portfolio/>
+    {/* <Modal isOpen={isOpen} toggle={toggle} /> */}
     <About />
     <Contact />
     <Footer />

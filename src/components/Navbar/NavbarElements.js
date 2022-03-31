@@ -58,10 +58,12 @@ export const NavLogo = styled(LinkR)`
     font-family: "Quicksand", sans-serif;
     font-size: 2.4rem;
     color: #fff;
-    /* text-shadow: #FC0 1px 0 10px; */
     background-color: #0b3142;
     width: 175px;
     border-radius: 50px;
+  }
+  &:active {
+    text-shadow: #FC0 1px 0 10px;
   }
 `;
 

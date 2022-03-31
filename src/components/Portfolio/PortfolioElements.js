@@ -60,6 +60,7 @@ export const PortfolioCard = styled.div`
   padding: 30px;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  height: 400px;
 
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-in-out;
@@ -95,18 +96,7 @@ export const PortfolioH1 = styled.h1`
     font-size: 2rem;
     margin-top: 0px;
   }
-  @media screen and (max-width: 800px) {
-    font-size: 2rem;
-    /* margin-top: 90px; */
-  }
-  @media screen and (max-width: 770px) {
-    font-size: 2rem;
-    /* margin-top: 10px; */
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-    /* margin-top: 0px; */
-  }
+  
 `;
 export const PortfolioH2 = styled.h2`
   font-size: 1.2rem;

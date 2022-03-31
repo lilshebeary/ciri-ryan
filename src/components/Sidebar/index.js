@@ -41,7 +41,7 @@ const Sidebar = ({ isOpen, toggle }) => {
            Portfolio
           </SidebarLink>
           <SidebarLink
-            to='services'
+            to='contact'
             onClick={toggle}
             smooth={true}
             duration={500}
