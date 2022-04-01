@@ -17,7 +17,7 @@ const About = () => {
             <AboutH1>Junior Software Developer</AboutH1>
             <AboutP>I am a mobile and web developer located in the Greater Seattle area
             
-              and I am currently completing my Assocites degree in Software Development
+              and I am currently completing my Associate's degree in Software Development
               while working part-time on a mobile-app startup.
               </AboutP>
             <AboutP>
@@ -28,7 +28,7 @@ const About = () => {
               and AWS coming soon.
               </AboutP>
               <AboutP>
-              I am hard working and motivated, a big thinker, and excited to
+              I am hard working, motivated, and excited to
               continue to learn and grow as a developer.
             </AboutP>
           </AboutContent>
