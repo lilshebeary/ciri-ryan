@@ -41,8 +41,8 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #00000c;
-  justify-self: flex-start;
+  color: #fff;
+  justify-self: center;
   cursor: pointer;
   font-size: 2.4rem;
   display: flex;
@@ -51,8 +51,10 @@ export const NavLogo = styled(LinkR)`
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
-  height: 57px;
+  height: 56px;
   font-family: "Quicksand", sans-serif;
+  padding-left: .4rem;
+  text-shadow: 3px 3px #0b3142;
 
   &:hover {
     font-family: "Quicksand", sans-serif;
