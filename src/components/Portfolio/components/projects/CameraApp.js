@@ -1,10 +1,17 @@
 import React from "react";
-import { PorfolioLink } from "../../PortfolioElements";
+import { ModalLink } from "../../PortfolioElements";
+import {
+  ProjectTitle,
+  ProjectImage,
+  ProjectImageContainer,
+  ProjectContent,
+} from "./projects.styles";
 const CameraApp = (props) => {
+  const { project } = props;
   return (
     <div>
-      Camera app details
-      <PorfolioLink
+      <ProjectTitle></ProjectTitle>
+      <ModalLink
         smooth={true}
         duration={500}
         spy={true}
@@ -12,8 +19,10 @@ const CameraApp = (props) => {
         offset={-80}
         className="btn btn-outline-success btn-sm"
       >
-        <a href="https://github.com/lilshebeary/presize-camera">code</a>
-      </PorfolioLink>
+        <a target="_blank" href="https://github.com/lilshebeary/presize-camera">
+          code
+        </a>
+      </ModalLink>
     </div>
   );
 };

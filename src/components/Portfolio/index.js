@@ -19,10 +19,13 @@ import {
 import ViewPortfolio from "./components/ViewPortfolio";
 import { useToggleState } from "../../hooks";
 import { CameraApp, PaperJSGame } from "./components/projects";
+import { projects } from "./projects.config";
+import DisplayDefaultProjectView from "./components/projects/DisplayDefaultProjectView";
 
 const projectDetails = {
   CameraApp,
   PaperJSGame,
+  Default: DisplayDefaultProjectView,
 };
 
 const Portfolio = () => {
@@ -33,7 +36,7 @@ const Portfolio = () => {
   ] = useToggleState(false);
 
   const onViewPorfolio = (project) => {
-    if (!(project in projectDetails))
+    if (!(project.tag in projectDetails))
       throw new Error(
         `Project ${project} is not configured. Add it to the projectDetails object.`
       );
@@ -44,7 +47,7 @@ const Portfolio = () => {
     };
   };
   console.log("s", selectedProject);
-  const ProjectDetailsModalContent = projectDetails[selectedProject];
+  const ProjectDetailsModalContent = projectDetails[selectedProject?.tag];
 
   return (
     <PortfolioContainer id="portfolio">
@@ -54,29 +57,34 @@ const Portfolio = () => {
         onClose={closePortfolioModal}
       >
         {ProjectDetailsModalContent
-          ? React.createElement(ProjectDetailsModalContent)
+          ? React.createElement(ProjectDetailsModalContent, {
+              project: selectedProject,
+              onClose: () => {
+                closePortfolioModal();
+                setSelectedProject(null);
+              },
+            })
           : null}
       </ViewPortfolio>
       <PortfolioWrapper>
-        <PortfolioCard>
-          <PortfolioH2>Presize Camera</PortfolioH2>
-          <PortfolioIcon src={Icon1} />
-          <PortfolioP>React-Native Camera app with Redux</PortfolioP>
-          <PorfolioLink
-            to="portfolio"
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-            className="btn btn-outline-success btn-sm"
-            onClick={onViewPorfolio("CameraApp")}
-          >
-            View
-          </PorfolioLink>
-        </PortfolioCard>
+        {projects.map((project) => {
+          const { id, title, excerpt, img } = project;
+          return (
+            <PortfolioCard key={id}>
+              <PortfolioH2>{title}</PortfolioH2>
+              <PortfolioIcon src={img} />
+              <PortfolioP>{excerpt}</PortfolioP>
+              <ModalLink
+                className="btn btn-outline-success btn-sm"
+                onClick={onViewPorfolio(project)}
+              >
+                View
+              </ModalLink>
+            </PortfolioCard>
+          );
+        })}
 
-        <PortfolioCard>
+        {/* <PortfolioCard>
           <PortfolioH2>Portfolio Website</PortfolioH2>
           <PortfolioIcon src={Icon2} />
           <PortfolioP>A website with React and styled components</PortfolioP>
@@ -166,7 +174,7 @@ const Portfolio = () => {
           >
             <a href="https://github.com/lilshebeary/food">code</a>
           </PorfolioLink>
-        </PortfolioCard>
+        </PortfolioCard> */}
       </PortfolioWrapper>
     </PortfolioContainer>
   );
