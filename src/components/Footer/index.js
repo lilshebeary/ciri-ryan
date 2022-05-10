@@ -15,7 +15,7 @@ const Footer = () => {
         <SectionTitle>Contact</SectionTitle>
         <ContactText>
           Want to get in touch? Drop me an email at{" "}
-          <a href="mailo:myemail@gmail.com">myemail@gmail.com</a>
+          <a href="mailto:cirijaye@yahoo.com">myemail@gmail.com</a>
         </ContactText>
 
         <FooterSocials>
