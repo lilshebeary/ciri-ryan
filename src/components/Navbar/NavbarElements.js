@@ -5,7 +5,7 @@ import styled from "styled-components";
 const whiteBg = "#fff";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "transparent" : "transparent")};
+  background: #0b3142;
   height: 110px;
   margin-top: -110px;
   display: flex;
@@ -26,13 +26,12 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 180px;
+  /* height: 80px; */
+  background-color: #0b3142;
+  width: 100vw;
   z-index: 1;
-  width: 100%;
-  padding: 0 24px;
+  /* padding: 0 24px; */
   max-width: 800px;
-  margin-top: 5em;
-  position: sticky;
 
   @media screen and (max-width: 760px) {
     margin-left: 0;
@@ -47,13 +46,13 @@ export const NavLogo = styled(LinkR)`
   font-size: 2.4rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  /* margin-left: 24px; */
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
   height: 56px;
   font-family: "Quicksand", sans-serif;
-  padding-left: .4rem;
+  /* padding-left: 0.4rem; */
   text-shadow: 3px 3px #0b3142;
 
   &:hover {
@@ -63,9 +62,6 @@ export const NavLogo = styled(LinkR)`
     background-color: #0b3142;
     width: 175px;
     border-radius: 50px;
-  }
-  &:active {
-    text-shadow: #FC0 1px 0 10px;
   }
 `;
 
@@ -86,10 +82,10 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
+  gap: 1rem;
   list-style: none;
   text-align: center;
-  margin-right: 0.9em;
-  margin-top: 1em;
+  margin-bottom: 0;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -97,30 +93,23 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #00000c;
+  color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
-  margin-left: 1.3em;
-  margin-right: 0.1em;
   padding-top: 0;
-  padding-left: 0.7em;
-  padding-right: 0.7em;
   padding-top: 0.15em;
   padding-bottom: 0.3em;
   cursor: pointer;
-  font-size: 1.48rem;
+  font-size: 1.25rem;
   font-weight: 200;
-  border: 0.07rem solid #8b8c89;
   border-radius: 50px;
 
   &.active {
-    border-bottom: 3px solid #fff;
-    color: #fff;
+    border: 0.07rem solid #8b8c89;
   }
 `;
 
@@ -128,7 +117,6 @@ export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
 
   white-space: nowrap;
-  /* padding: 10px 22px; */
   color: #00000c;
   font-size: 1.5 rem;
 

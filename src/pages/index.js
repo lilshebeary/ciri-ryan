@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
-import Home from '../components/Home'
-import Portfolio from '../components/Portfolio';
-import Navbar from '../components/Navbar';
-import Sidebar from '../components/Sidebar'
-import Contact from '../components/Contact';
-import About from '../components/About';
-import Footer from '../components/Footer';
-// import Modal from '../components/Modal';
+import React, { useState } from "react";
+import Home from "../components/Home";
+import Portfolio from "../components/Portfolio";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import Contact from "../components/Contact";
+import About from "../components/About";
+import Footer from "../components/Footer";
+import Portfolio2 from "../components/Portfolio2/Index";
+import Skills from "../components/Skills/Skills";
+// // import Modal from '../components/Modal';
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,16 +17,16 @@ const HomePage = () => {
   };
   return (
     <>
-    <Sidebar isOpen={isOpen} toggle={toggle} />
-    <Navbar toggle={toggle} />
-    <Home />
-    <Portfolio/>
-    {/* <Modal isOpen={isOpen} toggle={toggle} /> */}
-    <About />
-    <Contact />
-    <Footer />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <Home />
+      <Skills />
+      <Portfolio />
+      {/* <Modal isOpen={isOpen} toggle={toggle} /> */}
+      <About />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default HomePage;

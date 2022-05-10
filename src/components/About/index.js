@@ -14,18 +14,17 @@ const About = () => {
       <AboutContainer id='about'>
         <AboutWrapper>
           <AboutContent>
-            <AboutH1>Junior Software Developer</AboutH1>
+            <AboutH1>Software Developer</AboutH1>
             <AboutP>I am a mobile and web developer located in the Greater Seattle area
             
               and I am currently completing my Associate's degree in Software Development
               while working part-time on a mobile-app startup.
               </AboutP>
             <AboutP>
-              I have 3 years experience with Javascript, HTML, CSS, React,
+              I have 3 years (includes in college and working on an app) experience with Javascript, HTML, CSS, React,
               React-Native
            
-              NodeJS, and ExpressJS. I have some experience in MongoDB. SwiftUI
-              and AWS coming soon.
+              NodeJS, and ExpressJS. I have some experience in MongoDB.
               </AboutP>
               <AboutP>
               I am hard working, motivated, and excited to

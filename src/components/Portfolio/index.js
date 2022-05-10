@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Icon1 from "../../images/pSCam.png";
 import Icon2 from "../../images/port-web.svg";
 import Icon3 from "../../images/maze.svg";
@@ -14,13 +14,49 @@ import {
   PortfolioIcon,
   PortfolioP,
   PorfolioLink,
+  ModalLink,
 } from "./PortfolioElements";
+import ViewPortfolio from "./components/ViewPortfolio";
+import { useToggleState } from "../../hooks";
+import { CameraApp, PaperJSGame } from "./components/projects";
+
+const projectDetails = {
+  CameraApp,
+  PaperJSGame,
+};
 
 const Portfolio = () => {
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [
+    isViewPortfolioModalOpen,
+    { on: viewPortfolioModal, off: closePortfolioModal },
+  ] = useToggleState(false);
+
+  const onViewPorfolio = (project) => {
+    if (!(project in projectDetails))
+      throw new Error(
+        `Project ${project} is not configured. Add it to the projectDetails object.`
+      );
+    return () => {
+      console.log("setting project", project, projectDetails);
+      setSelectedProject(project);
+      viewPortfolioModal();
+    };
+  };
+  console.log("s", selectedProject);
+  const ProjectDetailsModalContent = projectDetails[selectedProject];
+
   return (
     <PortfolioContainer id="portfolio">
       <PortfolioH1>Projects</PortfolioH1>
-
+      <ViewPortfolio
+        isOpen={isViewPortfolioModalOpen}
+        onClose={closePortfolioModal}
+      >
+        {ProjectDetailsModalContent
+          ? React.createElement(ProjectDetailsModalContent)
+          : null}
+      </ViewPortfolio>
       <PortfolioWrapper>
         <PortfolioCard>
           <PortfolioH2>Presize Camera</PortfolioH2>
@@ -34,8 +70,9 @@ const Portfolio = () => {
             exact="true"
             offset={-80}
             className="btn btn-outline-success btn-sm"
+            onClick={onViewPorfolio("CameraApp")}
           >
-            private, please ask for tour
+            View
           </PorfolioLink>
         </PortfolioCard>
 
@@ -43,6 +80,7 @@ const Portfolio = () => {
           <PortfolioH2>Portfolio Website</PortfolioH2>
           <PortfolioIcon src={Icon2} />
           <PortfolioP>A website with React and styled components</PortfolioP>
+
           <PorfolioLink
             smooth={true}
             duration={500}
@@ -59,6 +97,17 @@ const Portfolio = () => {
           <PortfolioH2>Maze</PortfolioH2>
           <PortfolioIcon src={Icon3} />
           <PortfolioP>Javascript with PaperJS game</PortfolioP>
+          <ModalLink
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            className="btn btn-outline-success btn-sm"
+            onClick={onViewPorfolio("PaperJSGame")}
+          >
+            View
+          </ModalLink>
           <PorfolioLink
             smooth={true}
             duration={500}

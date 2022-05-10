@@ -1,35 +1,14 @@
 import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
 
 export const PortfolioContainer = styled.div`
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #fff;
-  margin: 0;
+  margin: 8rem 1rem;
   padding: 0;
-
-  @media screen and (max-width: 1008px) {
-    margin-top: 180px;
-    height: 1200px;
-  }
-  @media screen and (max-width: 968px) {
-    margin-top: 180px;
-    height: 1200px;
-  }
-  @media screen and (max-width: 868px) {
-    margin-top: 180px;
-    height: 1200px;
-  }
-  @media screen and (max-width: 768px) {
-    margin-top: 500px;
-    height: 1400px;
-  }
-  @media screen and (max-width: 580px) {
-    margin-top: 500px;
-    height: 1400px;
-  }
 `;
 
 export const PortfolioWrapper = styled.div`
@@ -58,8 +37,6 @@ export const PortfolioCard = styled.div`
   border-radius: 10px;
   max-height: 320px;
   padding: 30px;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
   height: 400px;
 
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -79,14 +56,12 @@ export const PortfolioIcon = styled.img`
   margin-bottom: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 `;
-export const PortfolioH1 = styled.h1`
-  margin-top: 180px;
+export const PortfolioH1 = styled.h2`
   font-size: 2rem;
-  font-family: "Quicksand", sans-serif;
-  color: #00000c;
+  color: #0b3142;
   justify-self: center;
   padding-bottom: 0.3em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 
   @media screen and (max-width: 1000px) {
     font-size: 2rem;
@@ -96,11 +71,10 @@ export const PortfolioH1 = styled.h1`
     font-size: 2rem;
     margin-top: 0px;
   }
-  
 `;
 export const PortfolioH2 = styled.h2`
   font-size: 1.2rem;
-  color: #00000c;
+  color: #0b3142;
   margin-bottom: 1rem;
 `;
 export const PortfolioP = styled.p`
@@ -108,7 +82,7 @@ export const PortfolioP = styled.p`
   text-align: center;
 `;
 
-export const PorfolioLink = styled.button`
+export const PorfolioLink = styled(LinkR)`
   font-size: 1rem;
   color: #00000c;
   border-color: #2d93ad;
@@ -124,5 +98,25 @@ export const PorfolioLink = styled.button`
   }
   & a {
     text-decoration: none;
+    color: #00000c;
+  }
+`;
+export const ModalLink = styled.button`
+  font-size: 1rem;
+  color: #00000c;
+  border-color: #2d93ad;
+  outline: #2d93ad;
+  text-decoration: none;
+  &:hover {
+    background: #2d93ad;
+    color: #fff;
+  }
+  & a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  & a {
+    text-decoration: none;
+    color: #00000c;
   }
 `;

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { FaBars } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll } from 'react-scroll';
+import React, { useState, useEffect } from "react";
+import { FaBars } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
+import { animateScroll as scroll } from "react-scroll";
 import {
   MobileIcon,
   Nav,
@@ -10,12 +10,11 @@ import {
   NavLinks,
   NavLogo,
   NavMenu,
-  Hr
-} from './NavbarElements';
+  Hr,
+} from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
-  
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -26,7 +25,7 @@ const Navbar = ({ toggle }) => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', changeNav);
+    window.addEventListener("scroll", changeNav);
   }, []);
 
   const toggleHome = () => {
@@ -35,23 +34,36 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#000' }}>
+      <IconContext.Provider value={{ color: "#000" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo onClick={toggleHome}  to='/ciri-ryan'>
+            <NavLogo onClick={toggleHome} to="/ciri-ryan">
               Ciri Ryan
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
             <NavMenu>
-            <NavItem>
+              <NavItem>
                 <NavLinks
-                  to='portfolio'
+                  to="skills"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
+                  offset={-80}
+                  className="btn btn-outline-dark rounded-pill "
+                >
+                  Skills
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="portfolio"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
                   offset={-80}
                   className="btn btn-outline-dark rounded-pill "
                 >
@@ -60,37 +72,34 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='about'
+                  to="about"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                   className="btn btn-outline-dark rounded-pill "
                 >
                   About
                 </NavLinks>
               </NavItem>
-             
+
               <NavItem>
                 <NavLinks
-                  to='contact'
+                  to="contact"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                   className="btn btn-outline-dark rounded-pill "
                 >
                   Contact
                 </NavLinks>
               </NavItem>
-             
             </NavMenu>
-        
           </NavbarContainer>
-          <Hr />
-       
+          {/* <Hr /> */}
         </Nav>
       </IconContext.Provider>
     </>
@@ -98,4 +107,3 @@ const Navbar = ({ toggle }) => {
 };
 
 export default Navbar;
-
