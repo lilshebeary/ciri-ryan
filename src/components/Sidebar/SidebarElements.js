@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { Link as LinkS } from 'react-scroll';
-import { Link as LinkR } from 'react-router-dom';
-import { FaTimes } from 'react-icons/fa';
+import styled from "styled-components";
+import { Link as LinkS } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
+import { FaTimes } from "react-icons/fa";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -14,13 +14,13 @@ export const SidebarContainer = styled.aside`
   top: 0;
   left: 0;
   transition: 0.3s ease-in-out;
-  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   z-index: 999;
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #00000c;
+  color: #0c4a6e;
 `;
 
 export const Icon = styled.div`
@@ -46,6 +46,7 @@ export const SidebarMenu = styled.ul`
 
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
+    padding: 0;
   }
 `;
 
@@ -73,11 +74,11 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled(LinkR)`
-  border-radius: 50px;
-  background: #219ebc;
+  border-radius: 0.25rem;
+  background: #0c4a6e;
   white-space: nowrap;
   padding: 16px 64px;
-  color: #010606;
+  color: #f0f9ff;
   font-size: 16px;
   outline: none;
   border: none;
@@ -87,7 +88,7 @@ export const SidebarRoute = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background: #0284c7;
+    color: #bae6fd;
   }
 `;

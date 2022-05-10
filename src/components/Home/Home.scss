@@ -12,11 +12,11 @@
   height: 30em;
   width: auto;
   justify-self: center;
+  margin: 0 auto;
 
   @media screen and (max-width: 480px) {
     height: 20em;
-    margin: 1em;
-    transform: translateY(5rem);
+    transform: translateY(3rem);
   }
 }
 
@@ -32,7 +32,7 @@
     max-width: 300px;
     padding-left: 1em;
     padding-right: 1em;
-    margin: 1em auto 0;
+    margin: 1rem auto 0;
     justify-content: space-between;
   }
 }
@@ -76,4 +76,34 @@ a {
     // margin-right: 3em;
     margin-top: 0em;
   }
+}
+.heroAboutText {
+  transform: translateY(-3rem);
+  color: #f0f9ff;
+
+  @media screen and (max-width: 768px) {
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(-0.5rem);
+  }
+
+  to {
+    transform: translateY(0.5rem);
+  }
+}
+
+.moreContentChevron {
+  cursor: pointer;
+  color: #f0f9ff;
+  position: absolute;
+  bottom: 2rem;
+  animation-duration: 2s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715)
 }

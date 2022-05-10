@@ -4,6 +4,7 @@ export const AboutContainer = styled.div`
   background: #f0f9ff;
   /* height: 100vh; */
   display: flex;
+  margin: 0 auto;
 
   /* align-items: center; */
 
@@ -32,17 +33,22 @@ export const AboutDiv = styled.div`
 export const AboutWrapper = styled.div`
   /* margin-bottom: 80px;
   height: 80vh; */
-  margin: 8rem 1rem;
+  margin: 8rem auto;
+  max-width: 1000px;
+
+  @media screen and (max-width: 768px) {
+    margin: 4rem 2rem;
+  }
 `;
 export const AboutContent = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   /* margin-left: 7em;
   margin-right: 7em;
   height: 80vh; */
 
-  @media screen and (max-width: 968px) {
+  /* @media screen and (max-width: 968px) {
     margin-left: 2em;
     margin-right: 2em;
   }
@@ -55,7 +61,7 @@ export const AboutContent = styled.div`
     margin-right: 1em;
     padding-left: 1em;
     padding-right: 1em;
-  }
+  } */
 `;
 export const AboutH1 = styled.h2`
   display: flex;
@@ -64,19 +70,34 @@ export const AboutH1 = styled.h2`
   /* margin-top: 7em; */
   margin-bottom: 2em;
 
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #0c4a6e;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 4rem;
+  }
 `;
 
 export const AboutP = styled.p`
   font-size: 1.5em;
   color: #0c4a6e;
-  margin-bottom: 0.5em;
-  margin-left: 7em;
+  /* margin-bottom: 0.5em; */
+  /* margin-left: 7em;
   margin-right: 7em;
-  width: 80%;
+  width: 80%; */
+  /* margin: 0 1rem; */
+  display: block;
+  margin-bottom: 0;
+  & + & {
+    margin-top: 1.5rem;
+  }
 
-  @media screen and (max-width: 868px) {
+  @media screen and (max-width: 768px) {
+    /* margin: 0 auto; */
+    font-size: 1.25rem;
+  }
+
+  /* @media screen and (max-width: 868px) {
     margin-left: auto;
     margin-right: auto;
   }
@@ -85,5 +106,5 @@ export const AboutP = styled.p`
     margin-right: 1em;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 `;

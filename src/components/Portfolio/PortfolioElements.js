@@ -9,6 +9,9 @@ export const PortfolioContainer = styled.div`
   background: #fff;
   margin: 8rem 1rem;
   padding: 0;
+  @media screen and (max-width: 768px) {
+    margin: 4rem 1rem;
+  }
 `;
 
 export const PortfolioWrapper = styled.div`
@@ -60,16 +63,19 @@ export const PortfolioH1 = styled.h2`
   font-size: 2rem;
   color: #0b3142;
   justify-self: center;
-  padding-bottom: 0.3em;
   margin-bottom: 2em;
 
   @media screen and (max-width: 1000px) {
     font-size: 2rem;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   @media screen and (max-width: 900px) {
     font-size: 2rem;
     margin-top: 0px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 4rem;
   }
 `;
 export const PortfolioH2 = styled.h2`

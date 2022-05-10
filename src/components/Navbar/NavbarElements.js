@@ -34,8 +34,9 @@ export const NavbarContainer = styled.div`
   max-width: 800px;
 
   @media screen and (max-width: 760px) {
-    margin-left: 0;
-    margin-right: 2em;
+    /* margin-left: 0; */
+    /* margin-right: 2em; */
+    padding: 0 2rem;
   }
 `;
 
@@ -69,9 +70,10 @@ export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    display: block;
+    display: flex;
     cursor: pointer;
     font-size: 2.5rem;
+    color: #f0f9ff;
 
     svg:hover {
       color: #fff !important;
@@ -92,8 +94,7 @@ export const NavMenu = styled.ul`
   }
 `;
 
-export const NavItem = styled.li`
-`;
+export const NavItem = styled.li``;
 
 export const NavLinks = styled(LinkS)`
   color: #fff;

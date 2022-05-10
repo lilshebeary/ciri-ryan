@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   background: #0b3142;
   padding: 8rem 1rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 4rem 2rem;
+  }
 `;
 
 export const FooterContent = styled.div`
@@ -17,7 +21,7 @@ export const FooterSocials = styled.div`
   /* margin-right: 28rem;
   margin-left: 28rem; */
 
-  @media screen and (max-width: 1180px) {
+  /* @media screen and (max-width: 1180px) {
     margin-left: 8rem;
     margin-right: 8rem;
   }
@@ -29,6 +33,10 @@ export const FooterSocials = styled.div`
   @media screen and (max-width: 580px) {
     margin-left: 3rem;
     margin-right: 3rem;
+  } */
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0 2rem;
   }
 `;
 export const a = styled.a`
@@ -40,7 +48,6 @@ export const SectionTitle = styled.h2`
   color: #f0f9ff;
   justify-self: center;
   text-align: center;
-  padding-bottom: 0.3em;
   margin-bottom: 2em;
   font-weight: 500;
   line-height: 1.2;
@@ -48,11 +55,15 @@ export const SectionTitle = styled.h2`
 
   @media screen and (max-width: 1000px) {
     font-size: 2rem;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   @media screen and (max-width: 900px) {
     font-size: 2rem;
     margin-top: 0px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 4rem;
   }
 `;
 
