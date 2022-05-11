@@ -46,7 +46,9 @@ export const projects = [
       {
         to: "https://github.com/lilshebeary/ciri-ryan",
         text: "code",
-        props: {},
+        props: {
+          target: "_blank",
+        },
       },
     ],
   },
