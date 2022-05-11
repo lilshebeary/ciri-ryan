@@ -44,7 +44,7 @@ export const projects = [
     techStack: ["React", "Styled Components"],
     links: [
       {
-        to: "https://github.com/lilshebeary/ciri-ryan",
+        href: "https://github.com/lilshebeary/ciri-ryan",
         text: "code",
         props: {
           target: "_blank",
