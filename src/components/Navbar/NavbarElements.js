@@ -2,7 +2,6 @@ import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
 
-const whiteBg = "#fff";
 
 export const Nav = styled.nav`
   background: #0b3142;
@@ -26,7 +25,6 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* height: 80px; */
   background-color: #0b3142;
   width: 100vw;
   z-index: 1;
@@ -34,8 +32,6 @@ export const NavbarContainer = styled.div`
   max-width: 800px;
 
   @media screen and (max-width: 760px) {
-    /* margin-left: 0; */
-    /* margin-right: 2em; */
     padding: 0 2rem;
   }
 `;
@@ -47,13 +43,11 @@ export const NavLogo = styled(LinkR)`
   font-size: 2.4rem;
   display: flex;
   align-items: center;
-  /* margin-left: 24px; */
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
   height: 56px;
   font-family: "Quicksand", sans-serif;
-  /* padding-left: 0.4rem; */
   text-shadow: 3px 3px #0b3142;
 
   &:hover {

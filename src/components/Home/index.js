@@ -2,7 +2,7 @@ import React from "react";
 import bg from "../../images/cr-logo.svg";
 import "./Home.scss";
 import { HomeContainer } from "./HomeElements";
-import { BsChevronDoubleDown } from "react-icons/bs";
+import { AiOutlineArrowDown } from "react-icons/ai";
 import { Link as ScrollLink } from "react-scroll";
 const Home = () => {
   return (
@@ -41,9 +41,9 @@ const Home = () => {
         spy={true}
         exact="true"
         offset={-80}
-        className="moreContentChevron"
+        className="moreArrowDown"
       >
-        <BsChevronDoubleDown size={25} />
+        <AiOutlineArrowDown size={25} />
       </ScrollLink>
     </HomeContainer>
   );

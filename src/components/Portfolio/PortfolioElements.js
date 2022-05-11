@@ -126,3 +126,4 @@ export const ModalLink = styled.button`
     color: #00000c;
   }
 `;
+

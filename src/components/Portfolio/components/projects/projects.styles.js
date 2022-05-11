@@ -31,18 +31,24 @@ export const ProjectLinks = styled.div`
   gap: 1rem;
   margin-top: 2rem;
 `;
+
+const linkStyles = `background-color: #0c4a6e;
+color: #f0f9ff;
+padding: 0.8rem 1rem;
+text-decoration: none;
+width: 8rem;
+display: block;
+text-align: center;
+&:hover {
+  color: #bae6fd;
+  background-color: #0284c7;
+}`;
+
 export const ProjectLink = styled(LinkR)`
-  background-color: #0c4a6e;
-  color: #f0f9ff;
-  padding: 0.8rem 1rem;
-  text-decoration: none;
-  width: 8rem;
-  display: block;
-  text-align: center;
-  &:hover {
-    color: #bae6fd;
-    background-color: #0284c7;
-  }
+  ${linkStyles}
+`;
+export const ProjectLinkAnchor = styled("a")`
+  ${linkStyles}
 `;
 
 export const ProjectTechStack = styled.div`

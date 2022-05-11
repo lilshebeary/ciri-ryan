@@ -67,7 +67,6 @@ export const AboutH1 = styled.h2`
   display: flex;
   justify-self: center;
   align-self: center;
-  /* margin-top: 7em; */
   margin-bottom: 2em;
 
   font-size: 2rem;
@@ -81,11 +80,6 @@ export const AboutH1 = styled.h2`
 export const AboutP = styled.p`
   font-size: 1.5em;
   color: #0c4a6e;
-  /* margin-bottom: 0.5em; */
-  /* margin-left: 7em;
-  margin-right: 7em;
-  width: 80%; */
-  /* margin: 0 1rem; */
   display: block;
   margin-bottom: 0;
   & + & {
@@ -93,18 +87,7 @@ export const AboutP = styled.p`
   }
 
   @media screen and (max-width: 768px) {
-    /* margin: 0 auto; */
     font-size: 1.25rem;
   }
 
-  /* @media screen and (max-width: 868px) {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  @media screen and (max-width: 480px) {
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-left: auto;
-    margin-right: auto;
-  } */
 `;

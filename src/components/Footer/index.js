@@ -6,7 +6,7 @@ import {
   ContactText,
   SectionTitle,
 } from "./FooterElements";
-// import '../../App.css';
+
 
 const Footer = () => {
   return (

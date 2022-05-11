@@ -1,10 +1,4 @@
 import React, { useState } from "react";
-import Icon1 from "../../images/pSCam.png";
-import Icon2 from "../../images/port-web.svg";
-import Icon3 from "../../images/maze.svg";
-import Icon4 from "../../images/color-pic.svg";
-import Icon5 from "../../images/todo.svg";
-import Icon6 from "../../images/food-app.svg";
 import {
   PortfolioContainer,
   PortfolioH1,
@@ -18,13 +12,11 @@ import {
 } from "./PortfolioElements";
 import ViewPortfolio from "./components/ViewPortfolio";
 import { useToggleState } from "../../hooks";
-import { CameraApp, PaperJSGame } from "./components/projects";
 import { projects } from "./projects.config";
 import DisplayDefaultProjectView from "./components/projects/DisplayDefaultProjectView";
 
 const projectDetails = {
-  CameraApp,
-  PaperJSGame,
+
   Default: DisplayDefaultProjectView,
 };
 
@@ -46,7 +38,7 @@ const Portfolio = () => {
       viewPortfolioModal();
     };
   };
-  console.log("s", selectedProject);
+ 
   const ProjectDetailsModalContent = projectDetails[selectedProject?.tag];
 
   return (
@@ -83,12 +75,10 @@ const Portfolio = () => {
             </PortfolioCard>
           );
         })}
-
-        {/* <PortfolioCard>
+{/* <PortfolioCard>
           <PortfolioH2>Portfolio Website</PortfolioH2>
           <PortfolioIcon src={Icon2} />
           <PortfolioP>A website with React and styled components</PortfolioP>
-
           <PorfolioLink
             smooth={true}
             duration={500}
@@ -99,8 +89,8 @@ const Portfolio = () => {
           >
             <a href="https://github.com/lilshebeary/ciri-ryan">code</a>
           </PorfolioLink>
-        </PortfolioCard>
-
+        </PortfolioCard> */}
+        {/* 
         <PortfolioCard>
           <PortfolioH2>Maze</PortfolioH2>
           <PortfolioIcon src={Icon3} />
@@ -127,7 +117,6 @@ const Portfolio = () => {
             <a href="https://github.com/lilshebeary/maze">code</a>
           </PorfolioLink>
         </PortfolioCard>
-
         <PortfolioCard>
           <PortfolioH2>Color Pallete Site</PortfolioH2>
           <PortfolioIcon src={Icon4} />
@@ -143,7 +132,6 @@ const Portfolio = () => {
             <a href="https://github.com/lilshebeary/color-app">code</a>
           </PorfolioLink>
         </PortfolioCard>
-
         <PortfolioCard>
           <PortfolioH2>Todos</PortfolioH2>
           <PortfolioIcon src={Icon5} />
@@ -159,7 +147,6 @@ const Portfolio = () => {
             <a href="https://github.com/lilshebeary/todos-hooks">code</a>
           </PorfolioLink>
         </PortfolioCard>
-
         <PortfolioCard>
           <PortfolioH2>Restaurant Search App</PortfolioH2>
           <PortfolioIcon src={Icon6} />

@@ -9,6 +9,7 @@ import {
   ProjectDescription,
   ProjectLinks,
   ProjectLink,
+  ProjectLinkAnchor,
   ProjectTechStack,
   CloseIconBtn,
   CloseIcon,
@@ -45,12 +46,18 @@ const DisplayDefaultProjectView = (props) => {
         {Array.isArray(links) && links.length ? (
           <ProjectLinks>
             {links.map((link, idx) => {
-              const { to, text, props: linkProps } = link;
+              const { to, href, text, props: linkProps } = link;
               console.log("check", link, to, text, props);
+              if (to) {
+                linkProps.to = to;
+              } else if (href) {
+                linkProps.href = href;
+              }
+              const LinkComponent = to ? ProjectLink : ProjectLinkAnchor;
               return (
-                <ProjectLink key={idx} to={to} {...linkProps}>
+                <LinkComponent key={idx} {...linkProps}>
                   {text}
-                </ProjectLink>
+                </LinkComponent>
               );
             })}
           </ProjectLinks>
