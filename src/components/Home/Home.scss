@@ -38,7 +38,7 @@
   margin-top: 1em;
 }
 i:hover {
-  color: #0d6efd;
+  color: #249ED6;
 }
 a {
   color: #fff;
@@ -95,5 +95,8 @@ a {
   color: #f0f9ff;
   position: absolute;
   bottom: 1rem;
-  
+  &:hover {
+    color: #249ED6;
+  }
 }
+
