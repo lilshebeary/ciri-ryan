@@ -54,7 +54,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/'>Home</SidebarRoute>
+          <SidebarRoute to='/ciri-ryan'>Home</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

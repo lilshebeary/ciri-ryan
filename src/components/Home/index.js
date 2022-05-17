@@ -15,8 +15,9 @@ const Home = () => {
             alt="javascript, react-native, react, node, express, rest api"
           ></img>
         </section>
-        <h1 className="heroAboutText">Hello! I'm a Web & Mobile Developer</h1>
-
+        <div className="heroAboutTextContainer">
+          <h1 className="heroAboutText">Hello! I'm a Web & Mobile Developer</h1>
+        </div>
         <hr className="btm-hr" />
 
         <div className="social">

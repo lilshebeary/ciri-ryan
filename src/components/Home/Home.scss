@@ -7,12 +7,16 @@
   justify-self: center;
   margin: 0 auto;
   padding-left: 1.5rem;
+  filter: brightness(1.75);
   
 
   @media screen and (max-width: 480px) {
     height: 20em;
     transform: translateY(3rem);
   }
+  // &:hover {
+  //   filter: brightness(1.75);
+  // }
 }
 
 .social {
@@ -55,7 +59,7 @@ a {
     margin-top: 0em;
     width: 100%;
   
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 868px) {
       max-width: 300px;
       padding-left: 1em;
       padding-right: 1em;
@@ -72,11 +76,18 @@ a {
   color: #f0f9ff;
   margin-bottom: 2rem;
 
+ 
   @media screen and (max-width: 768px) {
     transform: translateY(1rem);
   }
 }
 
+.heroAboutTextContainer{
+  @media screen and (max-width: 768px) {
+    margin-left: 4rem;
+  }
+ 
+}
 
 
 .moreArrowDown {
