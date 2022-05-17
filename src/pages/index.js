@@ -6,7 +6,6 @@ import Sidebar from "../components/Sidebar";
 import Contact from "../components/Contact";
 import About from "../components/About";
 import Footer from "../components/Footer";
-import Portfolio2 from "../components/Portfolio2/Index";
 import Skills from "../components/Skills/Skills";
 // // import Modal from '../components/Modal';
 

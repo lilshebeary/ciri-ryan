@@ -4,12 +4,7 @@ import Icon3 from "../../images/maze.svg";
 import Icon4 from "../../images/color-pic.svg";
 import Icon5 from "../../images/todo.svg";
 import Icon6 from "../../images/food-app.svg";
-import {
-  FaBreadSlice,
-  FaFolderPlus,
-  FaShoePrints,
-  FaSimplybuilt,
-} from "react-icons/fa";
+
 
 export const projects = [
   {
@@ -66,7 +61,7 @@ export const projects = [
           </p>
           <p>
             In the maze it is dynamic and you can make it as complex as you
-            like. to move, you simple use the w a s d keys to get to the end and
+            like. To move, you simple use the w a s d keys to get to the end and
             then the gravity is removed and it all falls down. Or, is that the
             other way around??
           </p>
