@@ -35,7 +35,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <ScrollLink
+      {/* <ScrollLink
         to="skills"
         smooth={true}
         duration={500}
@@ -45,7 +45,7 @@ const Home = () => {
         className="moreArrowDown"
       >
         <AiOutlineArrowDown size={25} />
-      </ScrollLink>
+      </ScrollLink> */}
     </HomeContainer>
   );
 };

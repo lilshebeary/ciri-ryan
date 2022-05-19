@@ -12,7 +12,7 @@
 
   @media screen and (max-width: 480px) {
     height: 20em;
-    margin-top: .3rem;
+    margin-top: .1rem;
     transform: translateY(3rem);
   }
   // &:hover {
@@ -99,9 +99,11 @@ a {
   cursor: pointer;
   color: #f0f9ff;
   position: absolute;
-  bottom: 1rem;
+  bottom: .2rem;
   &:hover {
     color: #249ED6;
   }
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
