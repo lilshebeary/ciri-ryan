@@ -12,6 +12,7 @@
 
   @media screen and (max-width: 480px) {
     height: 20em;
+    margin-top: .3rem;
     transform: translateY(3rem);
   }
   // &:hover {
@@ -65,6 +66,10 @@ a {
       padding-right: 1em;
       margin: 0em auto 0;
       justify-content: space-between;
+    }
+    @media screen and (max-width: 480px){
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
   }
   .social a {
