@@ -90,20 +90,21 @@ a {
 .heroAboutTextContainer{
   @media screen and (max-width: 668px) {
     margin-left: 4rem;
+    margin-right: 4rem;
   }
  
 }
 
 
-.moreArrowDown {
-  cursor: pointer;
-  color: #f0f9ff;
-  position: absolute;
-  bottom: .2rem;
-  &:hover {
-    color: #249ED6;
-  }
-  padding: 1rem;
-  margin-top: 1rem;
-}
+// .moreArrowDown {
+//   cursor: pointer;
+//   color: #f0f9ff;
+//   position: absolute;
+//   bottom: .2rem;
+//   &:hover {
+//     color: #249ED6;
+//   }
+//   padding: 1rem;
+//   margin-top: 1rem;
+// }
 
