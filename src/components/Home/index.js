@@ -35,17 +35,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      {/* <ScrollLink
-        to="skills"
-        smooth={true}
-        duration={500}
-        spy={true}
-        exact="true"
-        offset={-80}
-        className="moreArrowDown"
-      >
-        <AiOutlineArrowDown size={25} />
-      </ScrollLink> */}
+    
     </HomeContainer>
   );
 };
