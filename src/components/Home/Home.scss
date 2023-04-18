@@ -15,9 +15,11 @@
     margin-top: .1rem;
     transform: translateY(3rem);
   }
-  // &:hover {
-  //   filter: brightness(1.75);
-  // }
+  &:hover {
+    filter: brightness(3.75);
+    box-shadow: 30px 30px 40px rgb(52, 52, 4);
+   
+  }
 }
 
 .social {
@@ -39,7 +41,7 @@
   margin-top: 1em;
 }
 i:hover {
-  color: #249ED6;
+  color: yellow;
 }
 a {
   color: #fff;
