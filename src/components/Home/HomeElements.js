@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
   background-color: #0b3142;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Literata', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
   display: flex;
   justify-content: center;
   align-items: center;

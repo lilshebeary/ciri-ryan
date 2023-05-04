@@ -8,13 +8,6 @@
   width: 100%;
   justify-content: space-around;
 
-  @media screen and (max-width: 480px) {
-    max-width: 300px;
-    padding-left: 1em;
-    padding-right: 1em;
-    // margin: 0 2em 0;
-   
-  }
 }
 .social a {
   margin-top: 1em;
@@ -27,41 +20,33 @@ a {
 }
 .btm-hr { 
   display: flex;
-
+  margin-top: 7em;
   color: #00000c;
 }
 
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+}
   .social {
-    display: flex;
-    justify-content: space-between;
+
     font-size: 2rem;
     color: #00000c;
-    width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+   
   
-    @media screen and (max-width: 868px) {
-      max-width: 300px;
-      padding-left: 1em;
-      padding-right: 1em;
-      margin: 2em auto 0;
-      justify-content: space-between;
-    }
-    @media screen and (max-width: 480px){
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
-  }
+   }
 
-}
-.flex-container {
-  display: flex;
-  justify-content: center;
-  padding: 2em;
-  margin: 3em;
+
+// .flex-container {
+//   display: flex;
+//   justify-content: center;
+//   padding: 2em;
+//   margin: 3em;
  
-
-}
+// }
 .title-word {
   animation: color-animation 4s linear infinite;
 }
@@ -121,16 +106,20 @@ a {
 .title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 5.5rem;
+  font-size: 6rem;
   text-transform: uppercase;
+
+  @media screen and (max-width: 1080px){
+    font-size: 10.5vw;
+   }
+
 }
 
 
 .heroAboutTextContainer{
   width: 90%;
-  margin: 4em 2em;
+  margin: 5em 2em 1em 2em;
   text-align: center;
- 
  
 }
 

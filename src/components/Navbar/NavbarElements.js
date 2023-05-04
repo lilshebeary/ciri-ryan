@@ -84,7 +84,10 @@ export const NavMenu = styled.ul`
   }
 `;
 
-export const NavItem = styled.li``;
+export const NavItem = styled.li`
+font-family: 'Roboto', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+`;
 
 export const NavLinks = styled(LinkS)`
   color: #fff;
