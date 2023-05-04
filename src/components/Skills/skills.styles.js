@@ -11,7 +11,8 @@ export const SkillsContainer = styled.section`
 
 export const SkillsContent = styled.div`
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 2em auto;
+  
 `;
 
 export const SkillsTitle = styled.h2`

@@ -8,9 +8,9 @@ export const PortfolioContainer = styled.div`
   align-items: center;
   background: #fff;
   margin: 8rem 1rem;
-  padding: 0;
+  padding: 1em;
   @media screen and (max-width: 768px) {
-    margin: 4rem 1rem;
+    margin: 6em 1rem;
   }
 `;
 

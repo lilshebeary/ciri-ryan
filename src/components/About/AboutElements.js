@@ -2,11 +2,8 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   background: #f0f9ff;
-  /* height: 100vh; */
   display: flex;
-  margin: 0 auto;
-
-  /* align-items: center; */
+  padding: 2em;
 
   /* @media screen and (max-width: 868px) {
     margin-top: 580px;
