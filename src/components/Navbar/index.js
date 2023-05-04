@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
-                  className="btn btn-outline-dark rounded-pill "
+                  className="btn btn-outline-dark rounded-pill pink"
                 >
                   Skills
                 </NavLinks>
@@ -65,7 +65,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
-                  className="btn btn-outline-dark rounded-pill "
+                  className="btn btn-outline-dark rounded-pill green"
                 >
                   Portfolio
                 </NavLinks>
@@ -78,7 +78,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
-                  className="btn btn-outline-dark rounded-pill "
+                  className="btn btn-outline-dark rounded-pill aqua"
                 >
                   About
                 </NavLinks>
@@ -92,7 +92,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
-                  className="btn btn-outline-dark rounded-pill "
+                  className="btn btn-outline-dark rounded-pill yellow"
                 >
                   Contact
                 </NavLinks>

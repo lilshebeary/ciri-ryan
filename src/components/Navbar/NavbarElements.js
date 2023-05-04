@@ -40,23 +40,19 @@ export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: center;
   cursor: pointer;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   display: flex;
   align-items: center;
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
-  height: 56px;
-  font-family: "Quicksand", sans-serif;
+  height: 3em;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sorts Mill Goudy', serif;
   text-shadow: 3px 3px #0b3142;
 
   &:hover {
-    font-family: "Quicksand", sans-serif;
-    font-size: 2.4rem;
-    color: #fff;
-    background-color: #0b3142;
-    width: 175px;
-    border-radius: 50px;
+   color: #3D8DAE;
   }
 `;
 
@@ -96,10 +92,9 @@ export const NavLinks = styled(LinkS)`
   align-items: center;
   text-decoration: none;
   padding-top: 0;
-  padding-top: 0.15em;
-  padding-bottom: 0.3em;
+  padding: .2em 1em;
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   font-weight: 200;
   border-radius: 50px;
 
@@ -123,7 +118,7 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #00000c;
+    color: #3D8DAE;
   }
 `;
 

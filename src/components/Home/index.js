@@ -8,16 +8,26 @@ const Home = () => {
   return (
     <HomeContainer>
       <div className="App">
-        <section>
-          <img
+        <section className="flex-container">
+          {/* <img
             className="heroImage"
             src={bg}
             alt="javascript, react-native, react, node, express, rest api"
-          ></img>
-        </section>
+          ></img> */}
+         
+        
         <div className="heroAboutTextContainer">
-          <h1 className="heroAboutText">Hello! I'm a Web & Mobile Developer</h1>
+          {/* <h1 className="heroAboutText strokeme">Hello! I'm a Web & Mobile Developer</h1> */}
+          <h2 class="title">
+    <span class="title-word title-word-1">Hello! </span>
+    <span class="title-word title-word-2"> I am a </span>
+    <span class="title-word title-word-3">Web </span>
+    <span class="title-word title-word-4">& </span>
+    <span class="title-word title-word-5">Mobile </span>
+    <span class="title-word title-word-6">Developer</span>
+  </h2>
         </div>
+        </section>
         <hr className="btm-hr" />
 
         <div className="social">
