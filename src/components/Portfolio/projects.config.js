@@ -82,7 +82,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Color Pallete Site",
+    title: "Color Palette Site",
     img: Icon4,
     excerpt: "React Color App",
     description: `This Color website was created from a React course using class based components.
