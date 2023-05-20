@@ -4,33 +4,20 @@ export const AboutContainer = styled.div`
   background: #f0f9ff;
   display: flex;
   padding: 2em;
-
-  /* @media screen and (max-width: 868px) {
-    margin-top: 580px;
-    height: 1200px;
-  }
-  @media screen and (max-width: 580px) {
-    margin-top: 580px;
-    height: 1200px;
-  }
-  @media screen and (max-width: 500px) {
-    margin-top: 580px;
-    height: 1600px;
-  }
-  @media screen and (max-width: 431px) {
-    margin-top: 580px;
-    height: 2000px;
-  } */
+  margin: auto;
+  justify-content: center;
+ 
 `;
+
 export const AboutDiv = styled.div`
   height: 2em;
   background: grey;
   margin-bottom: 2em;
+
 `;
 export const AboutWrapper = styled.div`
-  /* margin-bottom: 80px;
-  height: 80vh; */
   margin: 8rem auto;
+  justify-content: center;
   max-width: 1000px;
 
   @media screen and (max-width: 768px) {
@@ -38,32 +25,12 @@ export const AboutWrapper = styled.div`
   }
 `;
 export const AboutContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  /* margin-left: 7em;
-  margin-right: 7em;
-  height: 80vh; */
+  justify-self: center;
+  text-align: flex-start;
 
-  /* @media screen and (max-width: 968px) {
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-  @media screen and (max-width: 568px) {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-  @media screen and (max-width: 468px) {
-    margin-left: 1em;
-    margin-right: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-  } */
 `;
 export const AboutH1 = styled.h2`
-  display: flex;
-  justify-self: center;
-  align-self: center;
+  text-align: center;
   margin-bottom: 2em;
 
   font-size: 2rem;
