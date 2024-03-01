@@ -4,6 +4,7 @@ import "./Home.scss";
 import { HomeContainer } from "./HomeElements";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { Link as ScrollLink } from "react-scroll";
+
 const Home = () => {
   return (
     <HomeContainer>

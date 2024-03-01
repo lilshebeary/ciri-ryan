@@ -1,8 +1,8 @@
 import Icon1 from "../../images/pSCam.png";
 import Icon2 from "../../images/portfolio-pic.svg";
 import Icon3 from "../../images/maze.svg";
-import Icon4 from "../../images/color-pic.svg";
-import Icon5 from "../../images/todo.svg";
+import Icon4 from "../../images/smiley.svg";
+import Icon5 from "../../images/abcdefg.svg";
 import Icon6 from "../../images/food-app.svg";
 
 
@@ -82,15 +82,14 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Color Palette Site",
+    title: "Smiley Face Game",
     img: Icon4,
-    excerpt: "React Color App",
-    description: `This Color website was created from a React course using class based components.
-    you can select and create your own color palatte.`,
+    excerpt: "Vanilla JS Smiley Face Matching Game",
+    description: `This was created as a homework assignment in my bootcamp.`,
     tag: "Default",
     links: [
       {
-        href: "https://github.com/lilshebeary/color-app",
+        href: "https://github.com/lilshebeary/smiley-game",
         text: "code",
         props: {
           target: "_blank",
@@ -100,15 +99,15 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Todos",
+    title: "Carousel",
     img: Icon5,
-    excerpt: "React todo list with hooks",
-    description: `This is a simple but helpful todo from react using hooks and context.`,
+    excerpt: "React Alphabet Carousel",
+    description: `This is a simple alphabet carousel for my daughter who is learning letters.`,
     tag: "Default",
     techStack: ["React"],
     links: [
       {
-        href: "https://github.com/lilshebeary/todos-hooks-context",
+        href: "https://github.com/lilshebeary/AbeeCDEFG",
         text: "code",
         props: {
           target: "_blank",
