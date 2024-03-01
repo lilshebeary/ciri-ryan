@@ -1,6 +1,6 @@
 import Icon1 from "../../images/pSCam.png";
 import Icon2 from "../../images/portfolio-pic.svg";
-import Icon3 from "../../images/maze.svg";
+import Icon3 from "../../images/bootcamp.svg";
 import Icon4 from "../../images/smiley.svg";
 import Icon5 from "../../images/abcdefg.svg";
 import Icon6 from "../../images/food-app.svg";
@@ -49,30 +49,23 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Maze",
+    title: "Bootcamp signup",
     img: Icon3,
-    excerpt: "Javascript with PaperJS game",
+    excerpt: "Bootcamp signup",
     description: (project) => {
       return (
         <div>
           <p>
-            This is a Javascript project that I did in a Javascript course using
-            the PaperJS library
+            This is a Javascript project that I did in a Javascript course in my bootcamp
           </p>
-          <p>
-            In the maze it is dynamic and you can make it as complex as you
-            like. To move, you simple use the w a s d keys to get to the end and
-            then the gravity is removed and it all falls down. Or, is that the
-            other way around??
-          </p>
+         
         </div>
       );
     },
     tag: "Default",
-    techStack: ["React", "PaperJS library", "HTML"],
     links: [
       {
-        href: "https://github.com/lilshebeary/maze",
+        href: "https://github.com/lilshebeary/bootcamp-registration",
         text: "code",
         props: {
           target: "_blank",
