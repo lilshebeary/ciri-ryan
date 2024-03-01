@@ -21,7 +21,7 @@ export const projects = [
     links: [
       {
         href: "https://github.com/lilshebeary/presize-camera",
-        text: "code on request",
+        text: "code",
         props: {
           target: "_blank",
         },
