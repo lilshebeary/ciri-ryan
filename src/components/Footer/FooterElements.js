@@ -8,8 +8,8 @@ export const FooterContainer = styled.div`
     padding: 3rem 1rem 4rem .6rem;
   }
   @media screen and (max-width: 468px) {
-    padding: 3rem 1rem 4rem .6rem;
-    max-height: 410px;
+    padding: 2rem 1rem 5rem .6rem;
+    max-height: 400px;
    
   }
 `;
@@ -29,7 +29,7 @@ export const FooterSocials = styled.div`
     margin-bottom: 2rem;
   }
   @media screen and (max-width: 468px) {
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
   }
  
 `;
@@ -42,17 +42,20 @@ export const SectionTitle = styled.h2`
   color: #f0f9ff;
   justify-self: center;
   text-align: center;
-  margin-bottom: 2em;
   font-weight: 500;
   line-height: 1.2;
-  margin-top: -1rem;
-  margin-bottom: .2rem;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
   
 
  
   @media screen and (max-width: 700px) {
     font-size: 2.2rem;
-    margin-top: 0px;
+    margin-top: 1rem;
+  }
+  @media screen and (max-width: 460px) {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
   }
 
  
