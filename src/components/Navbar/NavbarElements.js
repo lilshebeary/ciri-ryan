@@ -41,6 +41,7 @@ export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: center;
   cursor: pointer;
+  min-width: 250px;
   font-size: 3.4rem;
   display: flex;
   align-items: center;
@@ -98,7 +99,7 @@ export const NavLinks = styled(LinkS)`
   padding-top: 0;
   padding: .2em 1em;
   cursor: pointer;
-  font-size: 1.55rem;
+  font-size: 1.65rem;
   font-weight: 200;
   border-radius: 50px;
 
