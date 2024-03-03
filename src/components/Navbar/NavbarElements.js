@@ -7,6 +7,7 @@ export const Nav = styled.nav`
   background: #0b3142;
   min-height: 215px;
   margin-top: -130px;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
