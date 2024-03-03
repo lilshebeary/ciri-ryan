@@ -10,11 +10,15 @@ export const HomeContainer = styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
- 
+  margin-top: 2rem;
 
   z-index: 1;
 
   @media screen and (max-width: 800px) {
     width: 100vw;
+  }
+  @media screen and (max-width: 468px) {
+    width: 100vw;
+    margin-top: 3rem;
   }
 `
