@@ -19,6 +19,6 @@ export const HomeContainer = styled.div`
   }
   @media screen and (max-width: 468px) {
     width: 100vw;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 `

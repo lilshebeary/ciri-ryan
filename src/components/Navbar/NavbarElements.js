@@ -22,8 +22,8 @@ export const Nav = styled.nav`
     transition: 0.8s all ease;
   }
   @media screen and (max-width: 608px) {
-    margin-bottom: -2rem;
-
+    min-height: 180px;
+    margin-bottom: -4rem;
   }
 `;
 
@@ -37,10 +37,14 @@ export const NavbarContainer = styled.div`
   max-width: 800px;
   margin-right: 2.5rem;
   margin-left: 1.2rem;
+  margin-bottom: 1rem;
+
   @media screen and (max-width: 760px) {
     padding: 0 2rem;
+    max-height: 200px;
   }
-  margin-bottom: 1rem;
+ 
+
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -75,6 +79,16 @@ export const MobileIcon = styled.div`
     font-size: 3.1rem;
     color: #f0f9ff;
 
+    svg:hover {
+      color: #fff !important;
+    }
+  }
+  @media screen and (max-width: 508px) {
+    display: flex;
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: #f0f9ff;
+    margin-left:2rem;
     svg:hover {
       color: #fff !important;
     }
@@ -149,8 +163,9 @@ export const Hr = styled.hr`
   text-decoration: solid;
   z-index: 10;
 
-  @media screen and (max-width: 480px) {
-    margin-top: 12rem;
+  @media screen and (max-width: 460px) {
+    margin-top: 0;
+   
   }
   @media screen and (max-height: 680px) {
     margin-top: 12rem;
