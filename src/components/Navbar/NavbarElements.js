@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background: #0b3142;
-  min-height: 215px;
+  min-height: 219px;
   margin-top: -130px;
   margin-bottom: 2rem;
   display: flex;
@@ -20,6 +20,10 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+  }
+  @media screen and (max-width: 608px) {
+    margin-bottom: -2rem;
+    
   }
 `;
 

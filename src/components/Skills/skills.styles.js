@@ -39,10 +39,11 @@ export const SkillsTitle = styled.h2`
 export const SkillsList = styled.ul`
   list-style: none;
   padding: 0;
+  padding-left: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  justify-items: center;
+  justify-items: start;
  
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
