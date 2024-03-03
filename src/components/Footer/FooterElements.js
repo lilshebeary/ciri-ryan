@@ -5,23 +5,30 @@ export const FooterContainer = styled.div`
   padding: 4rem 1rem;
 
   @media screen and (max-width: 768px) {
-    padding: 4rem 2rem;
+    padding: 3rem 1rem 4rem .6rem;
   }
+  @media screen and (max-width: 468px) {
+    padding: 3rem 1rem 4rem .6rem;
+    max-height: 420px;
+  }
+
 `;
 
 export const FooterContent = styled.div`
   max-width: 1000px;
   margin: 0 auto;
+ 
 `;
 
 export const FooterSocials = styled.div`
   display: flex;
-  justify-content: space-around;
   align-items: center;
-
+  justify-content: space-around
+  ;
   @media screen and (max-width: 768px) {
-    margin-bottom: 0 2rem;
+    margin-bottom: 2rem;
   }
+ 
 `;
 export const a = styled.a`
   margin: 3rem;
@@ -38,17 +45,13 @@ export const SectionTitle = styled.h2`
   margin-top: 0;
   margin-bottom: 2rem;
 
-  @media screen and (max-width: 1000px) {
-    font-size: 2.2rem;
-  }
-  @media screen and (max-width: 900px) {
+ 
+  @media screen and (max-width: 700px) {
     font-size: 2.2rem;
     margin-top: 0px;
   }
 
-  @media screen and (max-width: 768px) {
-    margin-bottom: 4rem;
-  }
+ 
 `;
 
 export const ContactText = styled.p`

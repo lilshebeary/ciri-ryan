@@ -10,22 +10,16 @@ import {
 const skillsList = [
   "JavaScript",
   "React",
-  "React Native",
   "HTML",
   "CSS",
-  "Bootstrap",
-  "Material UI",
-  "Semantic UI",
   "Figma",
   "REST",
   "Jira",
   "Git",
   "GitHub",
   "MySQL",
-  "C#",
   "MongoDB",
-  "Java",
-  "Python",
+  "React Native"
 ];
 
 const Skills = (props) => {

@@ -34,7 +34,11 @@ a {
     font-size: 2rem;
     color: #00000c;
     padding-left: 2em;
-    padding-right: 2em;  
+    padding-right: 2em; 
+    @media screen and (max-width: 480px){
+      padding-left: 1em;
+      padding-right: 1em;
+     }
    }
 
 .title-word {
@@ -49,8 +53,8 @@ a {
 .title-word-2 {
   --color-1: #DBAD4A;
   --color-2: #ACCFCB;
-  --color-3: #17494D;
-}
+  --color-3: #b2a4d4;
+} 
 
 .title-word-3 {
   --color-1: #ACCFCB;
@@ -66,7 +70,7 @@ a {
 .title-word-5 {
   --color-1: #DBAD4A;
   --color-2: #ACCFCB;
-  --color-3: #17494D;
+  --color-3: #7961b4;
 }
 .title-word-6 {
   --color-1: #ACCFCB;
@@ -90,8 +94,8 @@ a {
   display: grid;
   place-items: center;  
   text-align: center;
-  height: 100vh
-
+  height: 100vh;
+  overflow: hidden;
 }
 
 .title {
@@ -103,9 +107,12 @@ a {
   @media screen and (max-width: 1080px){
     font-size: 10.5vw;
    }
+  @media screen and (max-width: 460px){
+    font-size: 10.5vw;
+    padding-right: 2rem;
+   }
 
 }
-
 
 .heroAboutTextContainer{
   width: 90%;

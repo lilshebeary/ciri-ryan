@@ -39,12 +39,11 @@ export const NavbarContainer = styled.div`
   margin-left: 1.2rem;
   margin-bottom: 1rem;
 
+  
   @media screen and (max-width: 760px) {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     max-height: 200px;
   }
- 
-
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -64,6 +63,11 @@ export const NavLogo = styled(LinkR)`
   text-shadow: 3px 3px #0b3142;
   margin-left: -.5rem;
 
+  @media screen and (max-width: 460px) {
+   font-size: 2.8rem;
+   margin-left: .5rem;
+   margin-right: -2rem;
+  }
 
   &:hover {
    color: #3D8DAE;

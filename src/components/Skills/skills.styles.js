@@ -39,10 +39,10 @@ export const SkillsTitle = styled.h2`
 export const SkillsList = styled.ul`
   list-style: none;
   padding: 0;
-  padding-left: 5rem;
+  padding-left: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 1.1rem;
   justify-items: start;
  
   @media screen and (max-width: 768px) {
@@ -53,5 +53,9 @@ export const SkillsItem = styled.li`
   font-size: 2rem;
   @media screen and (max-width: 900px) {
     font-size: 1.8rem;
+  }
+  @media screen and (max-width: 460px) {
+    font-size: 1.3rem;
+    padding-right: -1rem;
   }
 `;

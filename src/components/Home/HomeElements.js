@@ -16,10 +16,12 @@ export const HomeContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     width: 100vw;
+    max-height: 800px;
   }
   @media screen and (max-width: 468px) {
     width: 100vw;
-    margin-top: .5rem;
-  
+    margin-top: .3rem;
+    max-height: 600px; 
+    
   }
 `
