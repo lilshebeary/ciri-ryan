@@ -52,7 +52,7 @@ const Modal = ({ isOpen, toggle }) => {
         </YouTubeVideo>
 
         <ModalBtnWrap>
-          <ModalRoute to='/'>Home</ModalRoute>
+          <ModalRoute to='/home'>Home</ModalRoute>
         </ModalBtnWrap>
 
       </ModalWrapper>

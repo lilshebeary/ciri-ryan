@@ -1,23 +1,13 @@
 import React from "react";
-import bg from "../../images/cr-logo.svg";
 import "./Home.scss";
 import { HomeContainer } from "./HomeElements";
-import { AiOutlineArrowDown } from "react-icons/ai";
-import { Link as ScrollLink } from "react-scroll";
 
 const Home = () => {
   return (
     <HomeContainer>
       <div className="App">
         <section className="flex-container">
-          {/* <img
-            className="heroImage"
-            src={bg}
-            alt="javascript, react-native, react, node, express, rest api"
-          ></img> */}
-
           <div className="heroAboutTextContainer">
-            {/* <h1 className="heroAboutText strokeme">Hello! I'm a Web & Mobile Developer</h1> */}
             <h2 class="title">
               <span class="title-word title-word-1">Hello! </span>
               <span class="title-word title-word-2"> I am a </span>

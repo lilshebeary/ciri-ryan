@@ -16,7 +16,6 @@ import { projects } from "./projects.config";
 import DisplayDefaultProjectView from "./components/projects/DisplayDefaultProjectView";
 
 const projectDetails = {
-
   Default: DisplayDefaultProjectView,
 };
 
