@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ciri-ryan/static/css/main.d1715e59.css",
-    "main.js": "/ciri-ryan/static/js/main.70b68bba.js",
+    "main.js": "/ciri-ryan/static/js/main.8305c3d5.js",
     "static/media/smiley.svg": "/ciri-ryan/static/media/smiley.9fe57c40d4f3a68dca0c3f320c370f99.svg",
     "static/media/food-app.svg": "/ciri-ryan/static/media/food-app.0d94fdcb42e19f0b53c8dc74b64c655c.svg",
     "static/media/bootcamp.svg": "/ciri-ryan/static/media/bootcamp.fe047b2497b2146b41cc7d922f99719b.svg",
@@ -11,10 +11,10 @@
     "static/media/cr-logo.svg": "/ciri-ryan/static/media/cr-logo.81ea75bd8d7c6d89cb0e49d82b604836.svg",
     "index.html": "/ciri-ryan/index.html",
     "main.d1715e59.css.map": "/ciri-ryan/static/css/main.d1715e59.css.map",
-    "main.70b68bba.js.map": "/ciri-ryan/static/js/main.70b68bba.js.map"
+    "main.8305c3d5.js.map": "/ciri-ryan/static/js/main.8305c3d5.js.map"
   },
   "entrypoints": [
     "static/css/main.d1715e59.css",
-    "static/js/main.70b68bba.js"
+    "static/js/main.8305c3d5.js"
   ]
 }
