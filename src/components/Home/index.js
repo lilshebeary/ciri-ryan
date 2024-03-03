@@ -15,19 +15,18 @@ const Home = () => {
             src={bg}
             alt="javascript, react-native, react, node, express, rest api"
           ></img> */}
-         
-        
-        <div className="heroAboutTextContainer">
-          {/* <h1 className="heroAboutText strokeme">Hello! I'm a Web & Mobile Developer</h1> */}
-          <h2 class="title">
-    <span class="title-word title-word-1">Hello! </span>
-    <span class="title-word title-word-2"> I am a </span>
-    <span class="title-word title-word-3">Web </span>
-    <span class="title-word title-word-4">& </span>
-    <span class="title-word title-word-5">Mobile </span>
-    <span class="title-word title-word-6">Developer</span>
-  </h2>
-        </div>
+
+          <div className="heroAboutTextContainer">
+            {/* <h1 className="heroAboutText strokeme">Hello! I'm a Web & Mobile Developer</h1> */}
+            <h2 class="title">
+              <span class="title-word title-word-1">Hello! </span>
+              <span class="title-word title-word-2"> I am a </span>
+              <span class="title-word title-word-3">Web </span>
+              <span class="title-word title-word-4">& </span>
+              <span class="title-word title-word-5">Mobile </span>
+              <span class="title-word title-word-6">Developer</span>
+            </h2>
+          </div>
         </section>
         <hr className="btm-hr" />
 
@@ -46,7 +45,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-    
     </HomeContainer>
   );
 };

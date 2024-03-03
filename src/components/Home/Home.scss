@@ -90,7 +90,8 @@ a {
   display: grid;
   place-items: center;  
   text-align: center;
-  // height: 100vh
+  height: 100vh
+
 }
 
 .title {
@@ -110,6 +111,7 @@ a {
   width: 90%;
   margin: 5em 2em 1em 2em;
   text-align: center;
+  z-index: 9;
 }
 
 
