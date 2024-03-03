@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.section`
-  padding: 8rem 1rem;
+  padding: 4rem 1rem;
   background: #f0f9ff;
 
   @media screen and (max-width: 768px) {
@@ -16,7 +16,7 @@ export const SkillsContent = styled.div`
 `;
 
 export const SkillsTitle = styled.h2`
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #0b3142;
   padding-bottom: 0.3em;
   margin-bottom: 2em;
@@ -41,13 +41,16 @@ export const SkillsList = styled.ul`
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1rem;
   justify-items: center;
-
+ 
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 `;
 export const SkillsItem = styled.li`
-  font-size: 1.4rem;
+  font-size: 2rem;
+  @media screen and (max-width: 900px) {
+    font-size: 1.8rem;
+  }
 `;

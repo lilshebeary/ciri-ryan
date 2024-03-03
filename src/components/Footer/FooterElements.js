@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   background: #0b3142;
-  padding: 8rem 1rem;
+  padding: 4rem 1rem;
 
   @media screen and (max-width: 768px) {
     padding: 4rem 2rem;
@@ -39,10 +39,10 @@ export const SectionTitle = styled.h2`
   margin-bottom: 2rem;
 
   @media screen and (max-width: 1000px) {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   @media screen and (max-width: 900px) {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-top: 0px;
   }
 

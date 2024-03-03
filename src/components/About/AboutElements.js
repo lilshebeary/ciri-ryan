@@ -16,7 +16,7 @@ export const AboutDiv = styled.div`
 
 `;
 export const AboutWrapper = styled.div`
-  margin: 8rem auto;
+  margin: 4rem auto;
   justify-content: center;
   max-width: 1000px;
 
@@ -33,7 +33,7 @@ export const AboutH1 = styled.h2`
   text-align: center;
   margin-bottom: 2em;
 
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #0c4a6e;
 
   @media screen and (max-width: 768px) {
@@ -42,7 +42,7 @@ export const AboutH1 = styled.h2`
 `;
 
 export const AboutP = styled.p`
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #0c4a6e;
   display: block;
   margin-bottom: 0;
@@ -51,7 +51,7 @@ export const AboutP = styled.p`
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
   }
 
 `;

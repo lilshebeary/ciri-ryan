@@ -7,10 +7,10 @@ export const PortfolioContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #fff;
-  margin: 8rem 1rem;
-  padding: 1em;
+  margin: 3rem 1rem;
+
   @media screen and (max-width: 768px) {
-    margin: 6em 1rem;
+    margin: 4rem 1rem;
   }
 `;
 
@@ -60,14 +60,13 @@ export const PortfolioIcon = styled.img`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 `;
 export const PortfolioH1 = styled.h2`
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #0b3142;
   justify-self: center;
   margin-bottom: 2em;
 
   @media screen and (max-width: 1000px) {
     font-size: 2rem;
-    /* margin-top: 40px; */
   }
   @media screen and (max-width: 900px) {
     font-size: 2rem;
