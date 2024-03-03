@@ -23,7 +23,7 @@ export const Nav = styled.nav`
   }
   @media screen and (max-width: 608px) {
     margin-bottom: -2rem;
-    
+
   }
 `;
 
@@ -40,6 +40,7 @@ export const NavbarContainer = styled.div`
   @media screen and (max-width: 760px) {
     padding: 0 2rem;
   }
+  margin-bottom: 1rem;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -58,6 +59,7 @@ export const NavLogo = styled(LinkR)`
   font-family: 'Sorts Mill Goudy', serif;
   text-shadow: 3px 3px #0b3142;
   margin-left: -.5rem;
+
 
   &:hover {
    color: #3D8DAE;
