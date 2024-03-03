@@ -46,7 +46,7 @@ export const SectionTitle = styled.h2`
   font-weight: 500;
   line-height: 1.2;
   margin-top: -1rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: .2rem;
   
 
  
