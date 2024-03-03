@@ -29,9 +29,9 @@ export const NavbarContainer = styled.div`
   background-color: #0b3142;
   width: 100vw;
   z-index: 1;
-  /* padding: 0 24px; */
   max-width: 800px;
-
+  margin-right: 2.5rem;
+  margin-left: 1.2rem;
   @media screen and (max-width: 760px) {
     padding: 0 2rem;
   }
@@ -41,17 +41,18 @@ export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: center;
   cursor: pointer;
-  min-width: 250px;
-  font-size: 3.4rem;
+  min-width: 245px;
+  font-size: 3.8rem;
   display: flex;
   align-items: center;
   font-weight: bold;
   text-decoration: none;
   font-weight: 200;
-  height: 3em;
+  min-height: 3.5em;
   font-family: 'Roboto', sans-serif;
   font-family: 'Sorts Mill Goudy', serif;
   text-shadow: 3px 3px #0b3142;
+  margin-left: -1rem;
 
   &:hover {
    color: #3D8DAE;
@@ -61,10 +62,10 @@ export const NavLogo = styled(LinkR)`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 808px) {
     display: flex;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 3.1rem;
     color: #f0f9ff;
 
     svg:hover {
@@ -76,12 +77,14 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: .8rem;
   list-style: none;
   text-align: center;
   margin-bottom: 0;
+ 
+  
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 808px) {
     display: none;
   }
 `;
@@ -97,12 +100,14 @@ export const NavLinks = styled(LinkS)`
   align-items: center;
   text-decoration: none;
   padding-top: 0;
-  padding: .2em 1em;
+  padding: .2em .8em;
+  margin-top: 1rem;
   cursor: pointer;
-  font-size: 1.65rem;
+  font-size: 1.75rem;
   font-weight: 200;
   border-radius: 50px;
-
+  letter-spacing: .05rem;
+ 
   &.active {
     border: 0.07rem solid #8b8c89;
   }
