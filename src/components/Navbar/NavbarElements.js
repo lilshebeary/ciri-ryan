@@ -42,7 +42,7 @@ export const NavLogo = styled(LinkR)`
   justify-self: center;
   cursor: pointer;
   min-width: 245px;
-  font-size: 3.8rem;
+  font-size: 3.9rem;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -52,7 +52,7 @@ export const NavLogo = styled(LinkR)`
   font-family: 'Roboto', sans-serif;
   font-family: 'Sorts Mill Goudy', serif;
   text-shadow: 3px 3px #0b3142;
-  margin-left: -1rem;
+  margin-left: -.5rem;
 
   &:hover {
    color: #3D8DAE;
