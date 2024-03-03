@@ -5,8 +5,8 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background: #0b3142;
-  height: 110px;
-  margin-top: -110px;
+  min-height: 215px;
+  margin-top: -130px;
   display: flex;
   justify-content: center;
   align-items: center;

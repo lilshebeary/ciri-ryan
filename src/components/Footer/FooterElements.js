@@ -28,7 +28,7 @@ export const a = styled.a`
 `;
 
 export const SectionTitle = styled.h2`
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #f0f9ff;
   justify-self: center;
   text-align: center;
@@ -36,6 +36,7 @@ export const SectionTitle = styled.h2`
   font-weight: 500;
   line-height: 1.2;
   margin-top: 0;
+  margin-bottom: 2rem;
 
   @media screen and (max-width: 1000px) {
     font-size: 2rem;
@@ -51,10 +52,10 @@ export const SectionTitle = styled.h2`
 `;
 
 export const ContactText = styled.p`
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #f0f9ff;
   justify-self: center;
   text-align: center;
   padding-bottom: 0.3em;
-  margin-bottom: 3em;
+  margin-bottom: 2.5rem;
 `;
