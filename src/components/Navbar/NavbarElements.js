@@ -83,9 +83,9 @@ export const MobileIcon = styled.div`
     font-size: 3.1rem;
     color: #f0f9ff;
 
-    svg:hover {
-      color: #fff !important;
-    }
+    // svg:hover {
+    //   color: #fff !important;
+    // }
   }
   @media screen and (max-width: 508px) {
     display: flex;

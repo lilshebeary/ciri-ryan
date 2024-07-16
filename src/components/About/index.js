@@ -20,14 +20,11 @@ const About = () => {
               area. 
             </AboutP>
             <AboutP>
-              I have 3 years (including attending college, <a href="https://nucamp.co?referral=RIPZ08" rel="nucamp" style={{ color: "#0c4af0", textDecoration: 'none' }}>NuCamp Front End Bootcamp</a>, and working on a React Native camera app, Udemy, freeCodeCamp, YouTube tutorials)
-              experience with Javascript, HTML, CSS, React, React-Native NodeJS,
-              and ExpressJS, MongoDB, SQL, MySQL. I am currently exploring and learning UX design.
+              I am open to front end work, building websites and mobile apps. 
+              I have experience with Javascript, HTML, CSS, React, React-Native NodeJS,
+              and ExpressJS, MongoDB, SQL, MySQL. <br/>I'm currently exploring and enjoying UX design.
             </AboutP>
-            <AboutP>
-              I am hard working, motivated, and excited to continue to learn and
-              grow as a developer.
-            </AboutP>
+           
           </AboutContent>
         </AboutWrapper>
       </AboutContainer>
