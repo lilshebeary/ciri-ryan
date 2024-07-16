@@ -20,7 +20,7 @@ export const PortfolioWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 16px;
+  grid-gap: 25px;
   padding: 0 50px;
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
